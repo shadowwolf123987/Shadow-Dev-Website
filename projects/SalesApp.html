@@ -1,0 +1,86 @@
+﻿<head>
+	<title>Sales App</title>
+	<link rel="stylesheet" href="../styles.css">
+	<link href="../imgs/wolfBlack.png"
+      rel="icon"
+      media="(prefers-color-scheme: light)" />
+	<link href="../imgs/wolfWhite.png"
+      rel="icon"
+      media="(prefers-color-scheme: dark)" />
+	<link href="https://fonts.googleapis.com/css2?family=Ysabeau:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<nav>
+    <ul class="navbar list">
+        <li>
+            <a class="logoLink" href="../index.html"><img class="navLogo" src="../imgs/wolfWhite.png"></a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/oliver-taylor-0690a0252/" target="_blank"><img class="socialIcon" src="../imgs/LinkedInIcon.png"></a>
+        </li>
+        <li>
+            <a href="mailto:olitaylor@shadowdev.co.uk"><img class="socialIcon" src="../imgs/mailIcon.png"></a>
+        </li>
+        <li>
+            <a href="https://github.com/shadowwolf123987" target="_blank"><img class="socialIcon" src="../imgs/gitIcon.png"></a>
+        </li>
+    </ul>
+</nav>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="../imgs/SalesAppHome.png" style="width:100%">
+  <div class="imgCaption">Home Menu</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="../imgs/SalesAppQuotes.png" style="width:100%">
+  <div class="imgCaption">Quotes View</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="../imgs/SalesAppQuoteParts.png" style="width:100%">
+  <div class="imgCaption">Quote Parts</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="../imgs/SalesAppParts.png" style="width:100%">
+  <div class="imgCaption">Database Parts List</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="../imgs/SalesAppExportedQuote.png" style="width:100%">
+  <div class="imgCaption">Exported Word Quote</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+
+<script src="../imgSlideshow.js"></script>
+
+<div class="main">
+    <ul class="projectsRow list" style="padding:0px;">
+        <li class="projectsMenu">
+                <a href="../index.html" class="projectsHref">Home</a>
+				<a href="GrimmGame.html" class="projectsHref">Grimm Game</a>
+                <a href="GunQuiz.html" class="projectsHref">Gun Quiz App</a>
+                <a href="GunScraper.html" class="projectsHref">Gun Scraping Tool</a>
+                <a href="GamblingGame.html" class="projectsHref">Gambling Game</a>
+        </li>
+        <li class="projectDescription">
+            This project was originally made for Defensor Life Safety over the span of 3 months, I have since expanded and done multiple other projects for this company. The project is created using ASP.NET and it that automatically generates quotes in varying formats based on details entered and parts selected which are stored in a backend SQL database. This is the first ASP.NET project that I ever did and it has since allowed me to become confident in using the ASP.NET framework and I am very happy with how it has turned out.
+        </li>
+    </ul>
+</div>
