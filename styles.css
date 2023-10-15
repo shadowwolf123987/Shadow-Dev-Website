@@ -24,18 +24,34 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .navbar {
-    height: 20%;
+	margin: 15px auto;
     width: 97%;
-    padding: 0;
-    margin: auto;
-    margin-top: 0.35%;
+	height: 15%;
     background-color: #19191B;
     border-radius: 15px;
-    
+}
+
+.navLogo {
+    height: 90%;
+	margin-top: 0.5%;
+	margin-left: 10px;
+}
+
+.socialIcon {
+	height: 50%;
+	margin: auto 5px;
+    float: right;
+    width: 75px;
+	margin-top: 2%
+}
+
+.navbar li {
+    display: inline;
 }
 
 .list {
     list-style-type: none;
+	padding: 0;
 }
 
 .homeList {
@@ -50,15 +66,6 @@ h1,h2,h3,h4,h5,h6 {
 .selectMenu {
     height: 5%;
     width: 10%;
-}
-
-.navLogo {
-    width: 8%;
-    padding: 1%;
-}
-
-.navbar li {
-    display: inline;
 }
 
 .footer {
@@ -93,13 +100,6 @@ h1,h2,h3,h4,h5,h6 {
 
 .homeDescription {
     width: 100%;
-}
-
-.socialIcon {
-    margin-top: 1.75%;
-    float: right;
-    width: 5%;
-    padding: 1%;
 }
 
 /* Projects scroll menu for home page*/
@@ -267,7 +267,18 @@ img {vertical-align: middle;border-radius:15px;}
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+@media only screen and (max-width: 600px) {
+   body {  
+      font-size: 0.8em;
+   }
+   .socialIcon {
+	   margin-top: 6%;
+	   height: 40%;
+	   width: 50px;
+   }
+   .navLogo {
+	   height: 70%;
+	   margin-top: 3%;
+   }
+   
 }
