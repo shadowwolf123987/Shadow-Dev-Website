@@ -23,30 +23,46 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: sans-serif;
 }
 
-.navbar {
-	margin: 15px auto;
-    width: 97%;
-	height: 15%;
+.navbar{
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
     background-color: #19191B;
     border-radius: 15px;
-}
-
-.navLogo {
-    height: 90%;
-	margin-top: 0.5%;
-	margin-left: 10px;
-}
-
-.socialIcon {
-	height: 50%;
-	margin: auto 5px;
-    float: right;
-    width: 75px;
-	margin-top: 2%
+	list-style-type: none;
 }
 
 .navbar li {
-    display: inline;
+	float: left;
+}
+
+.navbar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+.mainItem {
+	padding: 10px 0 10px 0;
+}
+
+.socialItem {
+	float: right !important;
+	padding: 14px 10px;
+}
+
+.navLogo {
+    height: 10%;
+	margin-left: 10px;
+	float: left;
+}
+
+.socialIcon {
+	display: block;
+	height: 8%;
+	margin: auto 0;
+	float: right;
 }
 
 .list {
@@ -265,20 +281,4 @@ img {vertical-align: middle;border-radius:15px;}
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
-}
-
-@media only screen and (max-width: 600px) {
-   body {  
-      font-size: 0.8em;
-   }
-   .socialIcon {
-	   margin-top: 6%;
-	   height: 40%;
-	   width: 50px;
-   }
-   .navLogo {
-	   height: 70%;
-	   margin-top: 3%;
-   }
-   
 }
