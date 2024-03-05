@@ -1,9 +1,9 @@
 <nav> 
-    <div class="navLogo"><a href="./index.php"><img src="imgs/wolfWhite.png"></a></div>
+    <div class="navLogo"><a href="./index"><img src="imgs/wolfWhite.png"></a></div>
     
-    <a class="txtLink" href="./pages/projects.php">Projects</a> |
-    <a class="txtLink" href="./pages/services.php">Services</a> |
-    <a class="txtLink" href="./pages/aboutme.php">About Me</a>
+    <a class="txtLink" href="./pages/projects">Projects</a> |
+    <a class="txtLink" href="./pages/services">Services</a> |
+    <a class="txtLink" href="./pages/aboutme">About Me</a>
     
     <div class="socialLinks" style="margin-right:25px;">
         <div>
