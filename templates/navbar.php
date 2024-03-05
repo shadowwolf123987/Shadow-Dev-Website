@@ -1,5 +1,5 @@
 <nav> 
-    <div class="navLogo"><a href="./index"><img src="imgs/wolfWhite.png"></a></div>
+    <div class="navLogo"><a href="./"><img src="imgs/wolfWhite.png"></a></div>
     
     <a class="txtLink" href="./pages/projects">Projects</a> |
     <a class="txtLink" href="./pages/services">Services</a> |
