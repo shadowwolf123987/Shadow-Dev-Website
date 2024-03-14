@@ -19,6 +19,11 @@ body {
 	margin: 0;
 }
 
+a{
+	text-decoration: none;
+	color: white;
+}
+
 .txtLink{
 	color: white;
 	font-size: 1.2em;
@@ -64,7 +69,6 @@ nav{
 	justify-content: space-between;
 	align-items: center;
 	background-color: var(--darkGray);
-	border-radius: 15px;
 }
 
 .navLogo a img{
@@ -93,11 +97,70 @@ nav{
 	height: 35px;
 }
 
+/* Navbar Mobile Design */
+
+.mobileNav{
+	display: none;
+}
+
+.mobileIcon{
+	width: 50px;
+	padding-right: 15px;
+}
+
+.mobileMenu{
+	display: none;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 100%;
+	height: 100%;
+	background-color: var(--darkGray);
+}
+
+.mobileItem{
+	padding: 20px 0;
+	font-size: 2em;
+	font-weight: 500;
+	border-radius: 0;
+	border-style: solid;
+	border-color: white;
+	border-width: 0 0 3px 0;
+}
+
+.mobileSocials {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.mobileSocials div{
+	opacity: 1;
+	margin: 0 5px;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+.mobileSocials div a img {
+	height: 65px;
+}
+
+@media only screen and (max-width: 767px) {
+	.desktopNav{
+		display: none;
+	}
+
+	.mobileNav{
+		display: flex;
+	}
+ }
+
 /* Home Page */
+
 .homeContent{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	margin-top: 150px;
 }
 
 .homeDiv{
@@ -112,6 +175,32 @@ nav{
 .homeDiv p{
 	font-size: 1.1em;
 }
+
+/* Home Mobile Design*/
+
+@media only screen and (max-width: 767px) {
+	.homeContent{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0;
+	}
+	
+	.homeDiv{
+		width: 280px;
+		padding: 10px;
+		margin: 40px 0;
+		font-size: 1em;
+	}
+
+	.homeDiv img{
+		width: 200px;
+	}
+	
+	.homeDiv p{
+		font-size: 1em;
+	}
+ }
 
 /* Main Projects Display Page */
 .projectsTitleDiv {
@@ -162,7 +251,21 @@ nav{
 	width: 100%;
 	height: 100%;
 	border-radius: 5px;
+	background-size: cover;
 }
 
-.projectsDiv p{
-}
+/* Main Projects Tablet Design */
+
+@media only screen and (max-width: 1024px) {
+	.projectsGrid {  
+		grid-template-columns: repeat(2, 1fr);
+	}
+ }
+
+/* Main Projects Mobile Design */
+
+@media only screen and (max-width: 767px) {
+	.projectsGrid {  
+		grid-template-columns: repeat(1, 1fr);
+	}
+ }
