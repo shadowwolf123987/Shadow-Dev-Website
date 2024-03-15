@@ -4,7 +4,18 @@ document.addEventListener("DOMContentLoaded", () => {
     var mobileMenu = document.getElementById("mobileMenu")
 
     mobileIcon.addEventListener("click", function(){
-        mobileMenu.style.display = "flex";
+        if (window.getComputedStyle(mobileMenu).display == "none"){
+            mobileMenu.style.display = "flex";
+            document.body.style.overflow = 'hidden';
+            requestAnimationFrame(() => {
+                mobileMenu.style.transform = "translateY(0)"; // Slide down
+            });
+        }
+        else{
+            mobileMenu.style.transform = "translateY(-100%)";
+            setTimeout(() => {
+                mobileMenu.style.display = "none";
+            }, 650);
+        }
     });
-
 });

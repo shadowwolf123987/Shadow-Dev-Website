@@ -4,8 +4,6 @@
 	<div class="backgroundLayer">
 		<?php include '../templates/navbar.php';?>
 
-		<div name="spacer" style="height:50px;"></div>
-
 		<div class="projectsTitleDiv">
 			<h1>Projects</h1>
 			<p>Shown below is the various projects I have worked on for work, college or just for fun projects</p>

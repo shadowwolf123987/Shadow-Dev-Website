@@ -24,11 +24,11 @@
     <div id="mobileIcon"><img id="mobileImg" class="mobileIcon" src="./imgs/mobileIcon.png"></div>
 </nav>
 
-<div class="mobileMenu">
-    <button class="mobileItem">Home</button>
-    <button class="mobileItem">Projects</button>
-    <button class="mobileItem">Services</button>
-    <button class="mobileItem">About</button>
+<div class="mobileMenu" id="mobileMenu">
+    <button class="mobileItem" onclick="window.location.href='./'">Home</button>
+    <button class="mobileItem" onclick="window.location.href='./projects'">Projects</button>
+    <button class="mobileItem" onclick="window.location.href='./services'">Services</button>
+    <button class="mobileItem" onclick="window.location.href='./about'">About</button>
 
     <div class="mobileSocials">
         <div>
@@ -43,3 +43,5 @@
     </div>
 
 </div>
+
+<script src="./js/mobileNav.js"></script>
