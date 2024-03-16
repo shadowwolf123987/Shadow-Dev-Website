@@ -6,7 +6,7 @@
 	
 	<?php include './templates/navbar.php';?>
 
-		<div class="homeContent">
+		<div id="content" class="homeContent">
 			<div class="homeDiv">
 				<img src="./imgs/wolfWhite.png">
 				<p>Interested in the various projects I've worked on?<br>The button below will take you to my projects page</p>
