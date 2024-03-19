@@ -21,7 +21,11 @@
 <nav class="mobileNav"> 
     <div class="navLogo"><a href="./"><img src="./imgs/wolfWhite.png"></a></div>
 
-    <div id="mobileIcon"><img id="mobileImg" class="mobileIcon" src="./imgs/icons/mobileIcon.png"></div>
+    <div class="mobileIcon" id="mobileIcon">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
 </nav>
 
 <div class="mobileMenu" id="mobileMenu">

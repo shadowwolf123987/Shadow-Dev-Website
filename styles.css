@@ -116,7 +116,17 @@ nav{
 
 .mobileIcon{
 	width: 50px;
-	padding-right: 15px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: white; /* Change to white */
 }
 
 @keyframes slideDown {
@@ -214,7 +224,7 @@ nav{
 	justify-content: space-between;
 	align-items: center;
 	width: 350px;
-	padding: 10px;
+	padding: 40px 25px;
 	background-color: var(--darkGray);
 	border-radius: 15px;
 	font-size: 1em;
@@ -241,7 +251,7 @@ nav{
 	
 	.homeDiv{
 		width: 280px;
-		padding: 10px;
+		padding: 25px;
 		margin: 40px 0;
 		font-size: 1em;
 	}
