@@ -24,7 +24,8 @@ body {
 @media only screen and (max-width: 767px) {
 	body{
 		background-image: url("imgs/wolfBackgroundMobile.png");
-		background-size: cover;
+		background-size: contain;
+		background-position: center;
 		background-repeat: no-repeat;
 		background-color: #020818;
 	}
@@ -208,12 +209,20 @@ nav{
 }
 
 .homeDiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 	width: 350px;
 	padding: 10px;
 	background-color: var(--darkGray);
 	border-radius: 15px;
 	font-size: 1em;
 	text-align: center;
+}
+
+.homeDiv img{
+	width: 200px;
 }
 
 .homeDiv p{
@@ -275,7 +284,7 @@ nav{
 .projectsDiv{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	width: 100%;
 	background-color: var(--gray);
 	border-radius: 15px;
@@ -287,12 +296,12 @@ nav{
 		background-color: var(--darkGrayHover);
 	}
 
-.imgDiv {
+.projectsImgDiv {
 	padding: 25px 5px 10px 5px;
 	height: 150px;
 }
 
-.imgDiv img{
+.projectsImgDiv img{
 	width: 100%;
 	height: 100%;
 	border-radius: 5px;
@@ -311,6 +320,74 @@ nav{
 
 @media only screen and (max-width: 767px) {
 	.projectsGrid {  
+		grid-template-columns: repeat(1, 1fr);
+	}
+ }
+
+ /* Main Services Display Page */
+.servicesTitleDiv {
+	background-color: var(--darkGray);
+	text-align: center;
+	margin-top: 75px;
+}
+
+.servicesTitleDiv h1{
+	font-size: 2.5em;
+	margin: 0;
+}
+
+.servicesTitleDiv p{
+	font-size: 1.1em;
+	margin-top: 10px;
+}
+
+.servicesGrid{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 50px;
+	grid-row-gap: 35px;
+	padding: 15px;
+	background-color: var(--darkGray);
+}
+
+.servicesDiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	background-color: var(--gray);
+	border-radius: 15px;
+	font-size: 1em;
+	text-align: center;
+}
+
+	.servicesDiv:hover{
+		background-color: var(--darkGrayHover);
+	}
+
+.servicesImgDiv {
+	padding: 25px 5px 10px 5px;
+	height: 150px;
+}
+
+.servicesImgDiv img{
+	height: 100%;
+	border-radius: 5px;
+	background-size: cover;
+}
+
+/* Main Services Tablet Design */
+
+@media only screen and (max-width: 900px) {
+	.servicesGrid {  
+		grid-template-columns: repeat(2, 1fr);
+	}
+ }
+
+/* Main Services Mobile Design */
+
+@media only screen and (max-width: 767px) {
+	.servicesGrid {  
 		grid-template-columns: repeat(1, 1fr);
 	}
  }

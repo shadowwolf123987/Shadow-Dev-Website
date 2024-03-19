@@ -8,12 +8,12 @@
 
 		<div id="content" class="homeContent">
 			<div class="homeDiv">
-				<img src="./imgs/wolfWhite.png">
-				<p>Interested in the various projects I've worked on?<br>The button below will take you to my projects page</p>
+				<img src="./imgs/icons/projectsIcon.png">
+				<p>Explore the various projects, I have been involved in here</p>
 				<button type="button" onclick="location.href='/projects'">View my Projects here</button>
 			</div>
 			<div class="homeDiv">
-				<img src="./imgs/wolfWhite.png">
+				<img src="./imgs/icons/servicesIcon.png">
 				<p>Interested in hiring me for work?<br>Submit an enquiry here</p>
 				<button type="button" onclick="location.href='/services'">View my Services</button>
 			</div>

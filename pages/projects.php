@@ -13,42 +13,42 @@
 			<div class="projectsGrid">
 
 				<div class="projectsDiv">
-					<div class="imgDiv">
+					<div class="projectsImgDiv">
 						<img src="./imgs/projects/Sales App/home.png">
 					</div>
 					<p>This is an ASP.NET Quote Creation tool custom made for Defensor Life Safety Systems</p>
 				</div>
 
 				<div class="projectsDiv">
-					<div class="imgDiv">
+					<div class="projectsImgDiv">
 						<img src="./imgs/projects/WH Group/home.png">
 					</div>
 					<p>Webster and Horsfall Group Website</p>
 				</div>
 
 				<div class="projectsDiv">
-					<div class="imgDiv">
+					<div class="projectsImgDiv">
 						<img src="./imgs/projects/Certificate Creator/home.png">
 					</div>
 					<p>Certificate Creator Tool</p>
 				</div>
 
 				<div class="projectsDiv">
-					<div class="imgDiv">
+					<div class="projectsImgDiv">
 						<img src="./imgs/projects/Air Gun/home.png">
 					</div>
 					<p>Air Gun Range</p>
 				</div>
 
 				<div class="projectsDiv">
-					<div class="imgDiv">
+					<div class="projectsImgDiv">
 						<img src="./imgs/projects/Gun Quiz/guess.png">
 					</div>
 					<p>Gun Quiz</p>
 				</div>
 
 				<div class="projectsDiv">
-					<div class="imgDiv">
+					<div class="projectsImgDiv">
 						<img src="./imgs/projects/Gambling Game/gameplay.png">
 					</div>
 					<p>Python Gambling Game</p>
