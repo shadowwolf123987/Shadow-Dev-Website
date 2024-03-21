@@ -401,3 +401,150 @@ nav{
 		grid-template-columns: repeat(1, 1fr);
 	}
  }
+
+ /* Individual Project */
+
+.projectContent{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+ .slides{
+	width: 100%;
+	height: 500px;
+	margin-top: 20px;
+}
+
+.slides img{
+	height: 100%;
+	border-radius: 5px;
+	background-size: cover;
+}
+
+ .projectDescription {
+	text-align: center;
+	margin-top: 20px;
+	padding: 10px;
+    width: 90%;
+    height: 200px;
+    background-color: #19191B;
+    border-radius: 15px;
+	font-size: 1.2em;
+}
+
+/* Project Tablet Design */
+@media only screen and (max-width: 900px) {
+	.slides{
+	height: 350px;
+}
+}
+
+/* Project Mobile Design */
+
+@media only screen and (max-width: 767px) {
+	.slides{
+		height: 250px;
+	}
+	
+	 .projectDescription {
+		margin-top: 20px;
+		padding: 10px;
+		width: 100%;
+		height: 100%;
+		font-size: 1em;
+	}
+}
+
+ /* Project Image Slideshow */
+
+ * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.slides {display: none}
+img {vertical-align: middle;border-radius:15px;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: #414144;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #29292c;
+}
+
+/* Image Gallery Caption text */
+.imgCaption {
+  color: #f2f2f2;
+  background-color: black;
+  font-size: 15px;
+  padding: 0px 2px;
+  position: absolute;
+  bottom: 8px;
+  width: 25%;
+  text-align: center;
+  margin-left: 72%;
+  border-radius: 4px;
+}
+
+/* Image Gallery Page Number*/
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Gallery Bullet Points */
+.dots {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #9d9da4;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #414144;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: .8} 
+  to {opacity: 1}
+}
