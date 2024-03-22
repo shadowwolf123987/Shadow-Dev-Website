@@ -48,7 +48,7 @@
 			<script src="./js/imgSlideshow.js"></script>
 
 			<div class="projectDescription">
-				I created this project for Defensor Life Safety over 3 months. Since then, I have expanded it and completed multiple other projects for the company. The project uses ASP.NET to automatically generate quotes in various formats based on details entered and parts selected from a backend SQL database. As my first ASP.NET project, it bolstered my confidence with the framework and I am very proud of the result.
+				I created this project for Defensor Life Safety over the course of 3 months. Since then, I have expanded it and completed multiple other projects for the company. The project uses <a href="./services/ASP">ASP.NET to automatically generate quotes in various formats based on details entered and parts selected from a backend SQL database. As my first ASP.NET project, it bolstered my confidence with the framework and I am very proud of the result.
 			</div>
 		</div>
 	</div>

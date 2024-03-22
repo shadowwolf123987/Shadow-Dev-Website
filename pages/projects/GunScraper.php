@@ -7,18 +7,18 @@
 			<div class="slideshow-container">
 
 			<div class="slides fade">
-			<img src="./imgs/projects/AirGun/home.png" style="width:100%">
-			<div class="imgCaption">Home Menu</div>
+			<img src="./imgs/projects/GunScraper/table.png" style="width:100%">
+			<div class="imgCaption">Created Table</div>
 			</div>
 
 			<div class="slides fade">
-			<img src="./imgs/projects/AirGun/ranges.png" style="width:100%">
-			<div class="imgCaption">Ranges Page</div>
+			<img src="./imgs/projects/GunScraper/query.png" style="width:100%">
+			<div class="imgCaption">Exported Query</div>
 			</div>
 
 			<div class="slides fade">
-			<img src="./imgs/projects/AirGun/about.png" style="width:100%">
-			<div class="imgCaption">About Page</div>
+			<img src="./imgs/projects/GunScraper/code.png" style="width:100%">
+			<div class="imgCaption">Web Scraper Code</div>
 			</div>
 
 			<a class="prev" onclick="NextPage(-1)">❮</a>
@@ -36,7 +36,7 @@
 			<script src="./js/imgSlideshow.js"></script>
 
 			<div class="projectDescription">
-				This is a website created for <a href="">Field Sport UK</a> in order to promote their <a href="">Air Rifle and Pistol shooting ranges</a>. This website was created purely in <a href="./services/Code">HTML,CSS and Javascript</a> due to its simplicity and flexibility
+            	This is a tool I created for my <a href="./projects/GunQuiz">Gun Quiz Project</a> in order to scrape the names and images of guns from wikipedia for use in my project. This tool saved me hours of tedious work and enabled me to build a massive database of various guns with minimal time. It was created using Python and Beautiful Soup
 			</div>
 		</div>
 	</div>

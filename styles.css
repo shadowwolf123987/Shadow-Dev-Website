@@ -418,7 +418,8 @@ nav{
 
 .slides img{
 	height: 100%;
-	border-radius: 5px;
+	border: 8px solid var(--darkGray);
+	border-radius: 15px;
 	background-size: cover;
 }
 
@@ -433,6 +434,16 @@ nav{
 	font-size: 1.2em;
 }
 
+.projectDescription a{
+	color: rgb(35, 110, 250);
+	font-size: 1em;
+	cursor: pointer;
+}
+
+	.projectDescription a:hover{
+		text-decoration: underline;
+	}
+
 /* Project Tablet Design */
 @media only screen and (max-width: 900px) {
 	.slides{
@@ -445,6 +456,10 @@ nav{
 @media only screen and (max-width: 767px) {
 	.slides{
 		height: 250px;
+	}
+
+	.slides img{
+		border-width: 5px;
 	}
 	
 	 .projectDescription {
