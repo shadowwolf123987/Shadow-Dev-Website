@@ -32,7 +32,7 @@
     <button class="mobileItem" onclick="window.location.href='./'">Home</button>
     <button class="mobileItem" onclick="window.location.href='./projects'">Projects</button>
     <button class="mobileItem" onclick="window.location.href='./services'">Services</button>
-    <button class="mobileItem" onclick="window.location.href='./about'">About</button>
+    <button class="mobileItem" onclick="window.location.href='./aboutme'">About</button>
 
     <div class="mobileSocials">
         <div>
