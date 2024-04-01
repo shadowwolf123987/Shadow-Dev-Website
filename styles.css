@@ -10,26 +10,25 @@
 /* Global Element Definitions */
 body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	display: flex;
 	color: white;
 	background-image: url("imgs/wolfBackground.png");
-    background-size: 100vw 100vh;
+    background-size: cover;
     background-repeat: no-repeat;
-	background-color: #000003;
+	background-color: #061014;
 	margin: 0;
 }
 
-/* Background Mobile Version */
+	/* Background Mobile Version */
 
-@media only screen and (max-width: 767px) {
-	body{
-		background-image: url("imgs/wolfBackgroundMobile.png");
-		background-size: contain;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-color: #020818;
+	@media only screen and (max-width: 767px) {
+		body{
+			background-image: url("imgs/wolfBackgroundMobile.png");
+			background-size: contain;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-color: #020818;
+		}
 	}
- }
 
 a{
 	text-decoration: none;
@@ -65,11 +64,10 @@ button:hover {
 	cursor: pointer;
 }
 
-/* Background Image Cover */
-.backgroundLayer {
-	backdrop-filter: blur(5px);
-	height: 100%;
-	width: 100%;
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 /* Navbar */
@@ -334,74 +332,6 @@ nav{
 	}
  }
 
- /* Main Services Display Page */
-.servicesTitleDiv {
-	background-color: var(--darkGray);
-	text-align: center;
-	margin-top: 75px;
-}
-
-.servicesTitleDiv h1{
-	font-size: 2.5em;
-	margin: 0;
-}
-
-.servicesTitleDiv p{
-	font-size: 1.1em;
-	margin-top: 10px;
-}
-
-.servicesGrid{
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-column-gap: 50px;
-	grid-row-gap: 35px;
-	padding: 15px;
-	background-color: var(--darkGray);
-}
-
-.servicesDiv{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 100%;
-	background-color: var(--gray);
-	border-radius: 15px;
-	font-size: 1em;
-	text-align: center;
-}
-
-	.servicesDiv:hover{
-		background-color: var(--darkGrayHover);
-	}
-
-.servicesImgDiv {
-	padding: 25px 5px 10px 5px;
-	height: 150px;
-}
-
-.servicesImgDiv img{
-	height: 100%;
-	border-radius: 5px;
-	background-size: cover;
-}
-
-/* Main Services Tablet Design */
-
-@media only screen and (max-width: 900px) {
-	.servicesGrid {  
-		grid-template-columns: repeat(2, 1fr);
-	}
- }
-
-/* Main Services Mobile Design */
-
-@media only screen and (max-width: 767px) {
-	.servicesGrid {  
-		grid-template-columns: repeat(1, 1fr);
-	}
- }
-
  /* Individual Project */
 
 .projectContent{
@@ -429,7 +359,7 @@ nav{
 	padding: 10px;
     width: 90%;
     height: 200px;
-    background-color: #19191B;
+    background-color: var(--darkGray);
     border-radius: 15px;
 	font-size: 1.2em;
 }
@@ -562,4 +492,325 @@ img {vertical-align: middle;border-radius:15px;}
 @keyframes fade {
   from {opacity: .8} 
   to {opacity: 1}
+}
+
+/* Main Services Display Page */
+.servicesTitleDiv {
+	background-color: var(--darkGray);
+	text-align: center;
+	margin-top: 75px;
+}
+
+.servicesTitleDiv h1{
+	font-size: 2.5em;
+	margin: 0;
+}
+
+.servicesTitleDiv p{
+	font-size: 1.1em;
+	margin-top: 10px;
+}
+
+.servicesGrid{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 50px;
+	grid-row-gap: 35px;
+	padding: 15px;
+	background-color: var(--darkGray);
+}
+
+.servicesDiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	background-color: var(--gray);
+	border-radius: 15px;
+	font-size: 1em;
+	text-align: center;
+}
+
+	.servicesDiv:hover{
+		background-color: var(--darkGrayHover);
+	}
+
+.servicesImgDiv {
+	padding: 25px 5px 10px 5px;
+	height: 150px;
+}
+
+.servicesImgDiv img{
+	height: 100%;
+	border-radius: 5px;
+	background-size: cover;
+}
+
+/* Main Services Tablet Design */
+
+@media only screen and (max-width: 900px) {
+	.servicesGrid {  
+		grid-template-columns: repeat(2, 1fr);
+	}
+ }
+
+/* Main Services Mobile Design */
+
+@media only screen and (max-width: 767px) {
+	.servicesGrid {  
+		grid-template-columns: repeat(1, 1fr);
+	}
+ }
+
+ /* Individual Service */
+
+.serviceContent{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.serviceTitle{
+	text-align: center;
+	font-size: 2.5em;
+	padding: 20px 80px;
+	border-radius: 15px;
+	background-color: var(--darkGray);
+}
+ 
+ .serviceDescription{
+	text-align: center;
+	margin-top: 20px;
+	padding: 10px;
+    min-height: 200px;
+	width: 70%;
+    background-color: var(--darkGray);
+    border-radius: 15px;
+	font-size: 1.2em;
+ }
+
+.serviceRow{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.serviceProjectsMenu{
+	height: 145px;
+	border-radius: 15px;
+	background-color: var(--darkGray);
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.serviceProjectsMenu li{
+	padding: 10px 80px;
+}
+
+	.serviceProjectsMenu li:hover{
+		background-color: var(--darkGrayHover);
+	}
+ 
+.serviceMenuFirstItem:hover{
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.serviceMenuLastItem:hover{
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+	
+.serviceEnquireBtn{
+	font-size: 1.5em;
+	padding: 15px 50px;
+}
+
+.serviceDescription a{
+	color: rgb(35, 110, 250);
+	font-size: 1em;
+	cursor: pointer;
+}
+
+	.serviceDescription a:hover{
+		text-decoration: underline;
+	}
+
+.enquiryForm{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: var(--darkGray);
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.enquiryTitle{
+	text-align: center;
+	margin: 0 0 15px 0;
+}
+
+.enquiryInput{
+	font-size: 1.1em;
+	margin: 5px 0;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+.enquiryMessage{
+	font-size: 1.2em;
+	margin: 5px 0 15px 0;
+}
+
+ /* Individual Service Tablet Design */
+
+@media only screen and (max-width: 900px) {
+
+	.serviceDescription{
+		width: 80%;
+		height: 100%;
+	}
+
+	.serviceRow{
+		flex-direction: column;
+	}
+
+	.serviceProjectsMenu{
+		margin-bottom: 25px;
+	}
+ }
+
+/* Individual Service Mobile Design */
+
+@media only screen and (max-width: 767px) {
+
+	.serviceDescription{
+		width: 100%;
+		height: 100%;
+	}
+
+	.serviceRow{
+		flex-direction: column;
+	}
+
+	.serviceProjectsMenu{
+		margin-bottom: 25px;
+	}
+
+	.serviceProjectsMenu li{
+		padding: 10px 25px;
+	}
+
+	.serviceEnquireBtn{
+		margin-bottom: 50px;
+	}
+ }
+
+
+/* About Me */
+
+.aboutBGDiv{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--darkGray);
+	margin-top: 75px;
+}
+
+.aboutContentDiv{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 60%;
+	text-align: center;
+}
+
+.aboutJourney{
+	width: 70%;
+}
+
+.aboutSubtitle{
+	margin-top: 30px;
+}
+
+/* About Skills Section */
+.aboutWorkExpDiv{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 100px;
+	grid-row-gap: 45px;
+	margin-bottom: 50px;
+}
+
+.aboutWorkExpItem{
+	display: flex;
+	flex-direction: column;
+}
+
+.aboutWorkExpItem h5{
+	font-size: 0.9em;
+	margin: 5px;
+}
+
+.aboutWorkExpItem a{
+	font-size: 1em;
+	cursor: pointer;
+}
+
+	.aboutWorkExpItem a:hover{
+		text-decoration: underline;
+	}
+
+.aboutWorkExpItem p{
+	margin: 5px;
+}
+
+.aboutWorkExpItem:nth-last-child(1):nth-child(odd) {
+    grid-column: 1 / -1;
+}
+
+/* About Skills Section */
+.aboutSkillsDiv{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 100px;
+	grid-row-gap: 45px;
+	margin-bottom: 50px;
+}
+
+.aboutSkillsItem{
+	display: flex;
+	flex-direction: column;
+}
+
+.aboutSkillsItem h5{
+	font-size: 0.9em;
+	margin: 5px;
+}
+
+.aboutSkillsItem p{
+	margin: 5px;
+}
+
+/* About Education Section */
+.aboutEducationDiv{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 50px;
+}
+
+.aboutEducationItem{
+	display: flex;
+	flex-direction: column;
+	margin: 15px 0;
+}
+
+.aboutEducationItem h5{
+	margin: 5px;
+}
+
+.aboutEducationItem p{
+	margin: 5px;
 }

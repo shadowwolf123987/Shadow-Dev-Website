@@ -1,3 +1,4 @@
+<html lang="en">
 <?php include '../../templates/head.php';?>
 
 <body>
@@ -7,7 +8,7 @@
 			<div class="slideshow-container">
 
 			<div class="slides fade">
-			<img src="./imgs/projects/WHGroup/home.png" style="width:100%">
+			<img src="./imgs/projects/WHGroup/home.png" title="Webster and Horsfall Group Home Page" alt="Webster and Horsfall Group Home Page" style="width:100%">
 			<div class="imgCaption">Home Menu</div>
 			</div>
 
@@ -28,3 +29,4 @@
 		</div>
 	</div>
 </body>
+</html>

@@ -1,3 +1,4 @@
+<html lang="en">
 <?php include '../../templates/head.php';?>
 
 <body>
@@ -7,18 +8,18 @@
 			<div class="slideshow-container">
 
 			<div class="slides fade">
-			<img src="./imgs/projects/GunScraper/table.png" style="width:100%">
-			<div class="imgCaption">Created Table</div>
+				<img src="./imgs/projects/GunScraper/table.png" title="Gun Scraper Table View" alt="Gun Scraper Table View" style="width:100%">
+				<div class="imgCaption">Created Table</div>
 			</div>
 
 			<div class="slides fade">
-			<img src="./imgs/projects/GunScraper/query.png" style="width:100%">
-			<div class="imgCaption">Exported Query</div>
+				<img src="./imgs/projects/GunScraper/query.png" title="Gun Scraper Query View" alt="Gun Scraper Query View" style="width:100%">
+				<div class="imgCaption">Exported Query</div>
 			</div>
 
 			<div class="slides fade">
-			<img src="./imgs/projects/GunScraper/code.png" style="width:100%">
-			<div class="imgCaption">Web Scraper Code</div>
+				<img src="./imgs/projects/GunScraper/code.png" title="Gun Scraper Code View" alt="Gun Scraper Code View" style="width:100%">
+				<div class="imgCaption">Web Scraper Code</div>
 			</div>
 
 			<a class="prev" onclick="NextPage(-1)">❮</a>
@@ -41,3 +42,4 @@
 		</div>
 	</div>
 </body>
+</html>

@@ -1,3 +1,4 @@
+<html lang="en">
 <?php include '../../templates/head.php';?>
 
 <body>
@@ -7,18 +8,18 @@
 			<div class="slideshow-container">
 
 			<div class="slides fade">
-			<img src="./imgs/projects/GamblingGame/menu.png" style="width:100%">
-			<div class="imgCaption">Home Menu</div>
+				<img src="./imgs/projects/GamblingGame/menu.png" title="Gambling Game Home Page" alt="Gambling Game Home Page" style="width:100%">
+				<div class="imgCaption">Home Menu</div>
 			</div>
 
 			<div class="slides fade">
-			<img src="./imgs/projects/GamblingGame/signIn.png" style="width:100%">
-			<div class="imgCaption">Quotes View</div>
+				<img src="./imgs/projects/GamblingGame/signIn.png" title="Gambling Game Log In Page" alt="Gambling Game Log In Page" style="width:100%">
+				<div class="imgCaption">Sign In Page</div>
 			</div>
 
 			<div class="slides fade">
-			<img src="./imgs/projects/GamblingGame/gameplay.png" style="width:100%">
-			<div class="imgCaption">Quote Parts</div>
+				<img src="./imgs/projects/GamblingGame/gameplay.png" title="Gambling Game Gameplay" alt="Gambling Game Gameplay" style="width:100%">
+				<div class="imgCaption">Gameplay</div>
 			</div>
 
 			<a class="prev" onclick="NextPage(-1)">❮</a>
@@ -41,3 +42,4 @@
 		</div>
 	</div>
 </body>
+</html>
