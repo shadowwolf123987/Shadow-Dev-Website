@@ -17,7 +17,7 @@
 					<div class="projectsImgDiv">
 						<img src="./imgs/projects/SalesApp/home.png" title="Sales App" alt="Sales App Home Screen">
 					</div>
-					<p>This is an ASP.NET Quote Creation tool custom made for Defensor Life Safety Systems</p>
+					<p>Defensor Sales App Web App</p>
 				</div>
 
 				<div class="projectsDiv" onclick="window.location.href='./projects/WebsterAndHorsfall'">
