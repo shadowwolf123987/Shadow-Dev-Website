@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $message .= '<p>Subject: '.$subject.'</p><br><br>';
     $message .= '<h2>Details:</h2><br><p>'.$details.'</p>';
 
-    mail("olitaylor@shadowdev.co.uk", "Code Enquiry from '.$name.'", $message, $header);
+    mail("olitaylor@shadowdev.co.uk", "Enquiry from '.$name.'", $message, $header);
 }
 ?>
 
@@ -130,7 +130,20 @@ Enquiry Form
 
                     </div>
 
-                    <?php include '../templates/enquiryForm.php';?>
+                    <div>
+                        <form method="post">
+                        <div class="enquiryForm">
+                            <h2 class="enquiryTitle">Submit An Enquiry</h2>
+
+                            <input class="enquiryInput" name="name" placeholder="Name..." required>
+                            <input class="enquiryInput" name="email" placeholder="Email..." required>
+                            <input class="enquiryInput" name="subject" placeholder="Subject..." required>
+                            <textarea class="enquiryInput enquiryMessage" name="message" cols="50" rows="6" placeholder="Message..." required></textarea>
+
+                            <button type="submit">SUBMIT</button>
+                        </div>
+                        </form>
+                    </div>
 
                 </div>
 			</div>

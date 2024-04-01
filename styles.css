@@ -735,7 +735,7 @@ img {vertical-align: middle;border-radius:15px;}
 	margin-top: 30px;
 }
 
-/* About Skills Section */
+/* About Work Experience Section */
 .aboutWorkExpDiv{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -813,4 +813,28 @@ img {vertical-align: middle;border-radius:15px;}
 
 .aboutEducationItem p{
 	margin: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+}
+
+/* Individual Service Mobile Design */
+
+@media only screen and (max-width: 767px) {
+	.aboutJourney{
+		width: 100%;
+	}
+
+	.aboutWorkExpDiv{
+		grid-template-columns: repeat(1, 1fr);
+		column-gap: 50px;
+	}
+
+	.aboutSkillsDiv{
+		column-gap: 50px;
+	}
+
+	.enquiryForm{
+		margin:15px;
+	}
 }
