@@ -26,24 +26,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-<!--
-
-Title Y
-
-Short Desc about me as a developer Y
-
-Description of my journey as a developer Y
-
-Work Experience (two column layout) Y
-
-Skills (variable column layout)/ Experienced in Windows
-
-Education (Singular column layout) Y
-
-Enquiry Form
-
--->
-
 <body>
 	<div class="backgroundLayer">
 		<?php include '../templates/navbar.php';?>
@@ -52,6 +34,14 @@ Enquiry Form
 			<div class="aboutBGDiv">
                 <div class="aboutContentDiv">
                     <h1 class="aboutTitle">About Me</h1>
+
+                    <div class="aboutBtnsDiv">
+                        <button onclick="window.location.href='./aboutme/#WorkExperience'">&#8681; Work Experience &#8681;</button>
+                        <button onclick="window.location.href='./aboutme/#Skills'">&#8681; Skills &#8681;</button>
+                        <button onclick="window.location.href='./aboutme/#Education'">&#8681; Education &#8681;</button>
+                        <button onclick="window.location.href='./aboutme/#Enquiry'">&#8681; Submit an Enquiry &#8681;</button>
+                    </div>
+
                     <h3 class="aboutDevDesc">Experienced Web Developer who has worked on a multitude of varied projects from bespoke wordpress websites to ASP.NET web apps</h3>
                     <p class="aboutJourney">My journey as a developer began in Secondary school with small, basic python projects during Computer Science lessons which then motivated me to pursue programming outside of school.<br><br>Then after a couple of years, I switched my sights from python to web development where my confidence in the languages grew and I started to use other systems like Wordpress and the .NET framework.</p>
 
@@ -130,10 +120,10 @@ Enquiry Form
 
                     </div>
 
-                    <div>
+                    <div class="aboutEnquiry">
                         <form method="post">
                         <div class="enquiryForm">
-                            <h2 class="enquiryTitle">Submit An Enquiry</h2>
+                            <h2 class="enquiryTitle" id="Enquiry">Submit An Enquiry</h2>
 
                             <input class="enquiryInput" name="name" placeholder="Name..." required>
                             <input class="enquiryInput" name="email" placeholder="Email..." required>

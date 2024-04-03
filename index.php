@@ -13,7 +13,7 @@
 				<button type="button" onclick="location.href='/projects'">View my Projects here</button>
 			</div>
 			<div class="homeDiv">
-				<img src="./imgs/icons/servicesIcon.png" title="my Services" alt="My Services">
+				<img src="./imgs/icons/servicesIcon.png" title="My Services" alt="My Services">
 				<p>Interested in hiring me for work?<br>Submit an enquiry here</p>
 				<button type="button" onclick="location.href='/services'">View my Services</button>
 			</div>
