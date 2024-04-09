@@ -5,25 +5,30 @@
 	<div class="backgroundLayer">
 		<?php include '../../templates/navbar.php';?>
 		<div class="projectContent" id="content">
+			
+			<div class="projectTitleDiv clickable" onclick="https://www.airgunrange.co.uk/">
+				Field Sport Air Gun Range
+			</div>
+
 			<div class="slideshow-container">
 
-			<div class="slides fade">
-				<img src="./imgs/projects/AirGun/home.png" title="Air Gun Range Home Page" alt="Air Gun Range Home Page" style="width:100%">
-				<div class="imgCaption">Home Menu</div>
-			</div>
+				<div class="slides fade">
+					<img src="./imgs/projects/AirGun/home.jpg" title="Air Gun Range Home Page" alt="Air Gun Range Home Page" style="width:100%">
+					<div class="imgCaption">Home Menu</div>
+				</div>
 
-			<div class="slides fade">
-				<img src="./imgs/projects/AirGun/ranges.png" title="Air Gun Ranges Page" alt="Air Gun Ranges Page" style="width:100%">
-				<div class="imgCaption">Ranges Page</div>
-			</div>
+				<div class="slides fade">
+					<img loading="lazy" src="./imgs/projects/AirGun/ranges.jpg" title="Air Gun Ranges Page" alt="Air Gun Ranges Page" style="width:100%">
+					<div class="imgCaption">Ranges Page</div>
+				</div>
 
-			<div class="slides fade">
-				<img src="./imgs/projects/AirGun/about.png" title="Air Gun About Us Page" alt="Air Gun About Us Page" style="width:100%">
-				<div class="imgCaption">About Page</div>
-			</div>
+				<div class="slides fade">
+					<img loading="lazy" src="./imgs/projects/AirGun/about.jpg" title="Air Gun About Us Page" alt="Air Gun About Us Page" style="width:100%">
+					<div class="imgCaption">About Page</div>
+				</div>
 
-			<a class="prev" onclick="NextPage(-1)">❮</a>
-			<a class="next" onclick="NextPage(1)">❯</a>
+				<a class="prev" onclick="NextPage(-1)">❮</a>
+				<a class="next" onclick="NextPage(1)">❯</a>
 
 			</div>
 			<br>

@@ -5,35 +5,41 @@
 	<div class="backgroundLayer">
 		<?php include '../../templates/navbar.php';?>
 		<div class="projectContent" id="content">
+
+			<div class="projectTitleDiv" onclick="">
+				Certificate Creator Web App
+			</div>
+
+
 			<div class="slideshow-container">
 
-			<div class="slides fade">
-				<img src="./imgs/projects/CertificateCreator/home.png" title="Certificate Creator Home Page" alt="Certificate Creator Home Page" style="width:100%">
-				<div class="imgCaption">Home Menu</div>
-			</div>
+				<div class="slides fade">
+					<img src="./imgs/projects/CertificateCreator/home.jpg" title="Certificate Creator Home Page" alt="Certificate Creator Home Page" style="width:100%">
+					<div class="imgCaption">Home Menu</div>
+				</div>
 
-			<div class="slides fade">
-				<img src="./imgs/projects/CertificateCreator/projects.png" title="Certificate Creator Projects Page" alt="Certificate Creator Projects Page" style="width:100%">
-				<div class="imgCaption">Projects Page</div>
-			</div>
+				<div class="slides fade">
+					<img loading="lazy" src="./imgs/projects/CertificateCreator/projects.jpg" title="Certificate Creator Projects Page" alt="Certificate Creator Projects Page" style="width:100%">
+					<div class="imgCaption">Projects Page</div>
+				</div>
 
-			<div class="slides fade">
-				<img src="./imgs/projects/CertificateCreator/settings.png" title="Certificate Creator Settings Page" alt="Certificate Creator Settings Page" style="width:100%">
-				<div class="imgCaption">Global Info Settings</div>
-			</div>
+				<div class="slides fade">
+					<img loading="lazy" src="./imgs/projects/CertificateCreator/settings.jpg" title="Certificate Creator Settings Page" alt="Certificate Creator Settings Page" style="width:100%">
+					<div class="imgCaption">Global Info Settings</div>
+				</div>
 
-			<div class="slides fade">
-				<img src="./imgs/projects/CertificateCreator/export.png" title="Certificate Creator Export Page" alt="Certificate Creator Export Page" style="width:100%">
-				<div class="imgCaption">Export Project Page</div>
-			</div>
+				<div class="slides fade">
+					<img loading="lazy" src="./imgs/projects/CertificateCreator/export.jpg" title="Certificate Creator Export Page" alt="Certificate Creator Export Page" style="width:100%">
+					<div class="imgCaption">Export Project Page</div>
+				</div>
 
-			<div class="slides fade">
-				<img src="./imgs/projects/CertificateCreator/designCert.png" title="Certificate Creator Exported Certificate" alt="Certificate Creator Exported Design Certificate" style="width:100%">
-				<div class="imgCaption">Exported Design Certificate</div>
-			</div>
+				<div class="slides fade">
+					<img loading="lazy" src="./imgs/projects/CertificateCreator/designCert.jpg" title="Certificate Creator Exported Certificate" alt="Certificate Creator Exported Design Certificate" style="width:100%">
+					<div class="imgCaption">Exported Design Certificate</div>
+				</div>
 
-			<a class="prev" onclick="NextPage(-1)">❮</a>
-			<a class="next" onclick="NextPage(1)">❯</a>
+				<a class="prev" onclick="NextPage(-1)">❮</a>
+				<a class="next" onclick="NextPage(1)">❯</a>
 
 			</div>
 			<br>

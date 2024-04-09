@@ -11,7 +11,7 @@
 body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: white;
-	background-image: url("imgs/wolfBackground.png");
+	background-image: url("imgs/wolfBackground.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 	background-color: #061014;
@@ -22,7 +22,7 @@ body {
 
 	@media only screen and (max-width: 767px) {
 		body{
-			background-image: url("imgs/wolfBackgroundMobile.png");
+			background-image: url("imgs/wolfBackgroundMobile.jpg");
 			background-size: contain;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -340,6 +340,19 @@ nav{
 	align-items: center;
 }
 
+.projectTitleDiv{
+	text-align: center;
+	margin-top: 20px;
+	padding: 10px 150px;
+	background-color: var(--darkGray);
+	border-radius: 8px;
+	font-size: 2em;
+}
+
+	.clickable{
+		cursor: pointer;
+	}
+
  .slides{
 	width: 100%;
 	height: 500px;
@@ -384,6 +397,11 @@ nav{
 /* Project Mobile Design */
 
 @media only screen and (max-width: 767px) {
+	.projectTitleDiv{
+		font-size: 1.6em;
+		padding: 15px 40px;
+	}
+
 	.slides{
 		height: 250px;
 	}
@@ -862,7 +880,7 @@ img {vertical-align: middle;border-radius:15px;}
 	.aboutBtnsDiv button{
 		width: 90%;
 		font-size: 1em;
-		padding: 0;
-		margin: 8px 0;
+		padding: 8px 0;
+		margin: 10px 0;
 	}
 }

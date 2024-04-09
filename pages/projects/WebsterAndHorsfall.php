@@ -5,15 +5,35 @@
 	<div class="backgroundLayer">
 		<?php include '../../templates/navbar.php';?>
 		<div class="projectContent" id="content">
-			<div class="slideshow-container">
 
-			<div class="slides fade">
-			<img src="./imgs/projects/WHGroup/home.png" title="Webster and Horsfall Group Home Page" alt="Webster and Horsfall Group Home Page" style="width:100%">
-			<div class="imgCaption">Home Menu</div>
+		<div class="projectTitleDiv" onclick="">
+				Webster and Horsfall Group
 			</div>
 
-			<a class="prev" onclick="NextPage(-1)">❮</a>
-			<a class="next" onclick="NextPage(1)">❯</a>
+			<div class="slideshow-container">
+
+				<div class="slides fade">
+					<img src="./imgs/projects/WHGroup/home.jpg" title="Webster and Horsfall Group Home Page" alt="Webster and Horsfall Group Home Page" style="width:100%">
+					<div class="imgCaption">Home Menu</div>
+				</div>
+
+				<div class="slides fade">
+					<img loading="lazy" src="./imgs/projects/WHGroup/gallery.jpg" title="Webster and Horsfall Group Home Page" alt="Webster and Horsfall Group Home Page" style="width:100%">
+					<div class="imgCaption">Gallery</div>
+				</div>
+
+				<div class="slides fade">
+					<img loading="lazy" src="./imgs/projects/WHGroup/news.jpg" title="Webster and Horsfall Group Home Page" alt="Webster and Horsfall Group Home Page" style="width:100%">
+					<div class="imgCaption">News</div>
+				</div>
+
+				<div class="slides fade">
+					<img loading="lazy" src="./imgs/projects/WHGroup/contact.jpg" title="Webster and Horsfall Group Home Page" alt="Webster and Horsfall Group Home Page" style="width:100%">
+					<div class="imgCaption">Contact Us</div>
+				</div>
+
+				<a class="prev" onclick="NextPage(-1)">❮</a>
+				<a class="next" onclick="NextPage(1)">❯</a>
 
 			</div>
 			<br>

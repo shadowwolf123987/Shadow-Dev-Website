@@ -3,8 +3,7 @@
 	<base href="http://localhost/shadowdev/">
 	<link rel="stylesheet" href="./styles.css">
 	<link href="./imgs/wolfBlack.png"
-      rel="icon"
-      media="(prefers-color-scheme: light)" />
+      rel="icon"/>
 	<link href="./imgs/wolfWhite.png"
       rel="icon"
       media="(prefers-color-scheme: dark)" />

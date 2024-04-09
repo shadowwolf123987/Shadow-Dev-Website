@@ -4,26 +4,33 @@
 <body>
 	<div class="backgroundLayer">
 		<?php include '../../templates/navbar.php';?>
+		
 		<div class="projectContent" id="content">
+
+			<div class="projectTitleDiv" onclick="">
+				Personal Gun Quiz
+			</div>
+
+
 			<div class="slideshow-container">
 
-			<div class="slides fade">
-				<img src="./imgs/projects/GunQuiz/menu.png" title="Gun Quiz Home Page" alt="Gun Quiz Home Page" style="width:100%">
-				<div class="imgCaption">Home Menu</div>
-			</div>
+				<div class="slides fade">
+					<img src="./imgs/projects/GunQuiz/menu.jpg" title="Gun Quiz Home Page" alt="Gun Quiz Home Page" style="width:100%">
+					<div class="imgCaption">Home Menu</div>
+				</div>
 
-			<div class="slides fade">
-				<img src="./imgs/projects/GunQuiz/view.png" title="Gun Quiz View Guns Screen" alt="Gun Quiz View Guns Screen" style="width:100%">
-				<div class="imgCaption">Gun View</div>
-			</div>
+				<div class="slides fade">
+					<img loading="lazy" src="./imgs/projects/GunQuiz/view.jpg" title="Gun Quiz View Guns Screen" alt="Gun Quiz View Guns Screen" style="width:100%">
+					<div class="imgCaption">Gun View</div>
+				</div>
 
-			<div class="slides fade">
-				<img src="./imgs/projects/GunQuiz/guess.png" title="Gun Quiz Guess Guns Screen" alt="Gun Quiz Guess Guns Screen" style="width:100%">
-				<div class="imgCaption">Gun Quiz</div>
-			</div>
+				<div class="slides fade">
+					<img loading="lazy" src="./imgs/projects/GunQuiz/guess.jpg" title="Gun Quiz Guess Guns Screen" alt="Gun Quiz Guess Guns Screen" style="width:100%">
+					<div class="imgCaption">Gun Quiz</div>
+				</div>
 
-			<a class="prev" onclick="NextPage(-1)">❮</a>
-			<a class="next" onclick="NextPage(1)">❯</a>
+				<a class="prev" onclick="NextPage(-1)">❮</a>
+				<a class="next" onclick="NextPage(1)">❯</a>
 
 			</div>
 			<br>
