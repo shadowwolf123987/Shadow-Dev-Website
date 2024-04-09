@@ -832,6 +832,10 @@ img {vertical-align: middle;border-radius:15px;}
 /* Individual Service Mobile Design */
 
 @media only screen and (max-width: 767px) {
+	.aboutContentDiv{
+		width: 80%;
+	}
+
 	.aboutJourney{
 		width: 100%;
 	}
@@ -847,5 +851,18 @@ img {vertical-align: middle;border-radius:15px;}
 
 	.enquiryInput{
 		width: 300px;
+	}
+
+	.aboutBtnsDiv{
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.aboutBtnsDiv button{
+		width: 90%;
+		font-size: 1em;
+		padding: 0;
+		margin: 8px 0;
 	}
 }

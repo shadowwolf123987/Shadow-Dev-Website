@@ -16,13 +16,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $header.= "Content-Type: text/html; charset=utf-8\r\n";
     $header.= "X-Priority: 1\r\n";
 
-    $message  = '<p>Name: '.$name.'</p><br>';
-    $message .= '<p>Email: '.$email.'</p><br><br>';
+    $message  = '<p>Name: '.$name.'</p>';
+    $message .= '<p>Email: '.$email.'</p>';
+    $message .= '<p>Subject: '.$subject.'</p><br>';
 
-    $message .= '<p>Subject: '.$subject.'</p><br><br>';
-    $message .= '<h2>Details:</h2><br><p>'.$details.'</p>';
+    $message .= '<h2>Details:</h2><p>'.$details.'</p>';
 
-    mail("olitaylor@shadowdev.co.uk", "Enquiry from '.$name.'", $message, $header);
+    mail("olitaylor@shadowdev.co.uk", "Enquiry from $name", $message, $header);
 }
 ?>
 
@@ -32,16 +32,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 		<div id="content">
 			<div class="aboutBGDiv">
+                <h1 class="aboutTitle">About Me</h1>
+
+                <div class="aboutBtnsDiv">
+                    <button onclick="window.location.href='./aboutme#WorkExperience'">&#8681; Work Experience &#8681;</button>
+                    <button onclick="window.location.href='./aboutme#Skills'">&#8681; Skills &#8681;</button>
+                    <button onclick="window.location.href='./aboutme#Education'">&#8681; Education &#8681;</button>
+                    <button onclick="window.location.href='./aboutme#Enquiry'">&#8681; Submit an Enquiry &#8681;</button>
+                </div>
                 <div class="aboutContentDiv">
-                    <h1 class="aboutTitle">About Me</h1>
-
-                    <div class="aboutBtnsDiv">
-                        <button onclick="window.location.href='./aboutme/#WorkExperience'">&#8681; Work Experience &#8681;</button>
-                        <button onclick="window.location.href='./aboutme/#Skills'">&#8681; Skills &#8681;</button>
-                        <button onclick="window.location.href='./aboutme/#Education'">&#8681; Education &#8681;</button>
-                        <button onclick="window.location.href='./aboutme/#Enquiry'">&#8681; Submit an Enquiry &#8681;</button>
-                    </div>
-
                     <h3 class="aboutDevDesc">Experienced Web Developer who has worked on a multitude of varied projects from bespoke wordpress websites to ASP.NET web apps</h3>
                     <p class="aboutJourney">My journey as a developer began in Secondary school with small, basic python projects during Computer Science lessons which then motivated me to pursue programming outside of school.<br><br>Then after a couple of years, I switched my sights from python to web development where my confidence in the languages grew and I started to use other systems like Wordpress and the .NET framework.</p>
 

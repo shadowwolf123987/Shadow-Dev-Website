@@ -16,13 +16,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $header.= "Content-Type: text/html; charset=utf-8\r\n";
     $header.= "X-Priority: 1\r\n";
 
-    $message  = '<p>Name: '.$name.'</p><br>';
-    $message .= '<p>Email: '.$email.'</p><br><br>';
+    $message  = '<p>Name: '.$name.'</p>';
+    $message .= '<p>Email: '.$email.'</p>';
+    $message .= '<p>Subject: '.$subject.'</p><br>';
+    $message .= '<h2>Details:</h2><p>'.$details.'</p>';
 
-    $message .= '<p>Subject: '.$subject.'</p><br><br>';
-    $message .= '<h2>Details:</h2><br><p>'.$details.'</p>';
-
-    mail("olitaylor@shadowdev.co.uk", "Code Enquiry from '.$name.'", $message, $header);
+    mail("olitaylor@shadowdev.co.uk", "Code Enquiry from $name", $message, $header);
 }
 ?>
 
