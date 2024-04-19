@@ -56,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 			<div class="serviceRow">
 				<div>
 					<ul class="serviceProjectsMenu">
-						<li class="serviceMenuFirstItem"><a href="./projects/SalesApp">Air Gun Range</a></li>
+						<li class="serviceMenuFirstItem"><a href="./projects/AirgunRange">Air Gun Range</a></li>
 					</ul>
 				</div>
 				<?php include '../../templates/enquiryForm.php';?>
