@@ -13,21 +13,21 @@
 
 			<div class="servicesGrid">
 
-				<div class="servicesDiv">
+				<div class="servicesDiv" onclick="window.location.href='./services/Code'">
 					<div class="servicesImgDiv">
 						<img src="./imgs/icons/htmlIcon.png" title="HTML Website Creation" alt="HTML Icon">
 					</div>
 					<p>Code-based Website Creation</p>
 				</div>
 
-				<div class="servicesDiv">
+				<div class="servicesDiv" onclick="window.location.href='./services/ASP'">
 					<div class="servicesImgDiv">
 						<img src="./imgs/icons/aspIcon.png" title="ASP.NET Website Creation" alt="ASP.NET Icon">
 					</div>
 					<p>ASP.NET Web App Creation</p>
 				</div>
 
-				<div class="servicesDiv">
+				<div class="servicesDiv" onclick="window.location.href='./services/Wordpress'">
 					<div class="servicesImgDiv">
 						<img src="./imgs/icons/wordpressIcon.png" title="WordPress Website Creation" alt="Wordpress Icon">
 					</div>

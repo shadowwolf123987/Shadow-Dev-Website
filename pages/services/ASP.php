@@ -6,10 +6,29 @@ use PHPMailer\PHPMailer\Exception;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-    $name = isset($_POST['name']) ? $_POST['name'] : '';
-    $email = isset($_POST['email']) ? $_POST['email'] : '';
-    $subject = isset($_POST['subject']) ? $_POST['subject'] : '';
-    $details = isset($_POST['message']) ? $_POST['message'] : '';
+	if (preg_match('/^[\p{L}\p{N}@ .,£$%&#!?]+$/u', $_POST['name'])) {
+        $name = $_POST['name'];
+    } else {
+        echo "Name: Special Characters are not Allowed";
+    }
+
+    if (preg_match('/^[\p{L}\p{N}@ .,£$%&#!?]+$/u', $_POST['email'])) {
+        $email = $_POST['email'];
+    } else {
+        echo "Email: Special Characters are not Allowed";
+    }
+
+    if (preg_match('/^[\p{L}\p{N}@ .,£$%&#!?]+$/u', $_POST['subject'])) {
+        $subject = $_POST['subject'];
+    } else {
+        echo "Subject: Special Characters are not Allowed";
+    }
+
+    if (preg_match('/^[\p{L}\p{N}@ .,£$%&#!?]+$/u', $_POST['message'])) {
+        $details = $_POST['message'];
+    } else {
+        echo "Details: Special Characters are not Allowed";
+    }
 
     $header = "From: ".$name." <".$email.">\r\n";
     $header.= "MIME-Version: 1.0\r\n";

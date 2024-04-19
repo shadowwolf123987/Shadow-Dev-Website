@@ -6,10 +6,30 @@ use PHPMailer\PHPMailer\Exception;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-    $name = isset($_POST['name']) ? $_POST['name'] : '';
-    $email = isset($_POST['email']) ? $_POST['email'] : '';
-    $subject = isset($_POST['subject']) ? $_POST['subject'] : '';
-    $details = isset($_POST['message']) ? $_POST['message'] : '';
+    if (preg_match('/^[\p{L}\p{N}@ .,£$%&#!?]+$/u', $_POST['name'])) {
+        $name = $_POST['name'];
+    } else {
+        echo "Name: Special Characters are not Allowed";
+    }
+
+    if (preg_match('/^[\p{L}\p{N}@ .,£$%&#!?]+$/u', $_POST['email'])) {
+        $email = $_POST['email'];
+    } else {
+        echo "Email: Special Characters are not Allowed";
+    }
+
+    if (preg_match('/^[\p{L}\p{N}@ .,£$%&#!?]+$/u', $_POST['subject'])) {
+        $subject = $_POST['subject'];
+    } else {
+        echo "Subject: Special Characters are not Allowed";
+    }
+
+    if (preg_match('/^[\p{L}\p{N}@ .,£$%&#!?]+$/u', $_POST['message'])) {
+        $details = $_POST['message'];
+    } else {
+        echo "Details: Special Characters are not Allowed";
+    }
+    
 
     $header = "From: ".$name." <".$email.">\r\n";
     $header.= "MIME-Version: 1.0\r\n";
@@ -125,9 +145,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <h2 class="enquiryTitle" id="Enquiry">Submit An Enquiry</h2>
 
                             <input class="enquiryInput" name="name" placeholder="Name..." required>
-                            <input class="enquiryInput" name="email" placeholder="Email..." required>
+                            <input type="email" class="enquiryInput" name="email" placeholder="Email..." required>
                             <input class="enquiryInput" name="subject" placeholder="Subject..." required>
-                            <textarea class="enquiryInput enquiryMessage" name="message" cols="50" rows="6" placeholder="Message..." required></textarea>
+                            <textarea class="enquiryInput enquiryMessage" name="message" cols="50" rows="6" maxlength="500" placeholder="Message..." required></textarea>
 
                             <button type="submit" data-sitekey="6LcvyLcpAAAAAM_BS4lLTpZ6uaWdo1_lCsAoXt7A" data-callback='onSubmit' data-action='submit'>SUBMIT</button>
 

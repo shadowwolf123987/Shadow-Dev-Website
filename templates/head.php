@@ -1,6 +1,6 @@
 <head>
 	<title>Shadow Dev</title>
-	<base href="https://shadowdev.co.uk/">
+	<base href="http://localhost/shadowdev/">
 	<link rel="stylesheet" href="./styles.css">
 	<link href="./imgs/wolfBlack.png"
       rel="icon"/>
@@ -25,6 +25,4 @@
 
 	gtag('config', 'G-3L9YK1ES6L');
 	</script>
-
-	<script src="https://www.google.com/recaptcha/enterprise.js?render=6LcvyLcpAAAAAM_BS4lLTpZ6uaWdo1_lCsAoXt7A"></script>
 </head>
