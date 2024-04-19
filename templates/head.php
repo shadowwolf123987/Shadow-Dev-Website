@@ -1,6 +1,6 @@
 <head>
 	<title>Shadow Dev</title>
-	<base href="http://localhost/shadowdev/">
+	<base href="https://shadowdev.co.uk/">
 	<link rel="stylesheet" href="./styles.css">
 	<link href="./imgs/wolfBlack.png"
       rel="icon"/>
