@@ -120,7 +120,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     </div>
 
                     <div class="aboutEnquiry">
-                        <form method="post">
+                        <form method="post" id="enquiryForm">
                         <div class="enquiryForm">
                             <h2 class="enquiryTitle" id="Enquiry">Submit An Enquiry</h2>
 
@@ -129,11 +129,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <input class="enquiryInput" name="subject" placeholder="Subject..." required>
                             <textarea class="enquiryInput enquiryMessage" name="message" cols="50" rows="6" placeholder="Message..." required></textarea>
 
-                            <button type="submit">SUBMIT</button>
+                            <button type="submit" data-sitekey="6LcvyLcpAAAAAM_BS4lLTpZ6uaWdo1_lCsAoXt7A" data-callback='onSubmit' data-action='submit'>SUBMIT</button>
+
+                            <script>
+                                function onSubmit(token) {
+                                    document.getElementById("enquiryForm").submit();
+                                }
+                            </script>
+                            
                         </div>
                         </form>
                     </div>
-
                 </div>
 			</div>
 		</div>

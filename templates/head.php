@@ -25,4 +25,6 @@
 
 	gtag('config', 'G-3L9YK1ES6L');
 	</script>
+
+	<script src="https://www.google.com/recaptcha/enterprise.js?render=6LcvyLcpAAAAAM_BS4lLTpZ6uaWdo1_lCsAoXt7A"></script>
 </head>
