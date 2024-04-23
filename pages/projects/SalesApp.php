@@ -6,7 +6,7 @@
 		<?php include '../../templates/navbar.php';?>
 		<div class="projectContent" id="content">
 
-			<div class="projectTitleDiv clickable" onclick="https://defensorsales20230302172119.azurewebsites.net/">
+			<div class="projectTitleDiv clickable" onclick='window.location.href="https://defensorsales20230302172119.azurewebsites.net/"'>
 				Defensor Sales App
 			</div>
 

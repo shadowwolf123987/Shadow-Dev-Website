@@ -659,7 +659,7 @@ img {vertical-align: middle;border-radius:15px;}
 .enquiryForm{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	align-items: center;
 	background-color: #222223;
 	padding: 20px;
 	border-radius: 15px;
@@ -671,15 +671,20 @@ img {vertical-align: middle;border-radius:15px;}
 }
 
 .enquiryInput{
+	width: 80%;
 	font-size: 1.1em;
 	margin: 5px 0;
-	border-radius: 3px;
+	border-radius: 5px;
 	padding: 5px;
 }
 
 .enquiryMessage{
 	font-size: 1.2em;
 	margin: 5px 0 15px 0;
+}
+
+.enquirySubmit{
+	width: 50%;
 }
 
  /* Individual Service Tablet Design */

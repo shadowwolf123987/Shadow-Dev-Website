@@ -8,13 +8,7 @@
         <input class="enquiryInput" name="subject" placeholder="Subject..." required>
         <textarea class="enquiryInput enquiryMessage" name="message" cols="50" rows="6" maxlength="500" placeholder="Message..." required></textarea>
 
-        <button type="submit">SUBMIT</button>
+        <button class="enquirySubmit" type="submit">SUBMIT</button>
     </div>
     </form>
 </div>
-
-<script>
-  function onSubmit(token) {
-    document.getElementById("enquiryForm").submit();
-  }
-</script>

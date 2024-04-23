@@ -6,7 +6,7 @@
 		<?php include '../../templates/navbar.php';?>
 		<div class="projectContent" id="content">
 			
-			<div class="projectTitleDiv clickable" onclick="https://www.airgunrange.co.uk/">
+			<div class="projectTitleDiv clickable" onclick='window.location.href="https://www.airgunrange.co.uk/"'>
 				Field Sport Air Gun Range
 			</div>
 

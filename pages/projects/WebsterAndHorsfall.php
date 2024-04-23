@@ -40,11 +40,14 @@
 
 			<div style="text-align:center">
 				<span class="dots" onclick="CurrentSlide(1)"></span>
+				<span class="dots" onclick="CurrentSlide(2)"></span>
+				<span class="dots" onclick="CurrentSlide(3)"></span>
+				<span class="dots" onclick="CurrentSlide(4)"></span>
 			</div>
 
 			<script src="./js/imgSlideshow.js"></script>
 			<div class="projectDescription">
-				This website was created for Webster and Horsfall during my week of work experience and during the time afterwards. It was created in <a href="./services/Wordpress">Wordpress using Elementor</a> and it showcases their subcompanies and partners
+				This website was created for Webster and Horsfall during my week of work experience and during the time afterwards. It was created in <a href="./services/Wordpress">Wordpress using Elementor</a> and it is used to showcase their subcompanies and partners. This website also displays their history and an amazing gallery of their paintings and media.
 			</div>
 		</div>
 	</div>
