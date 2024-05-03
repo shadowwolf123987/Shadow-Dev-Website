@@ -13,17 +13,17 @@
 			<div class="slideshow-container">
 				
 				<div class="slides fade">
-					<img src="./imgs/projects/GunScraper/table.jpg" title="Gun Scraper Table View" alt="Gun Scraper Table View" style="width:100%">
+					<img loading="eager" src="./imgs/projects/GunScraper/table.jpg" title="Gun Scraper Table View" alt="Gun Scraper Table View" style="width:100%">
 					<div class="imgCaption">Created Table</div>
 				</div>
 
 				<div class="slides fade">
-					<img loading="lazy" src="./imgs/projects/GunScraper/query.jpg" title="Gun Scraper Query View" alt="Gun Scraper Query View" style="width:100%">
+					<img src="./imgs/projects/GunScraper/query.jpg" title="Gun Scraper Query View" alt="Gun Scraper Query View" style="width:100%">
 					<div class="imgCaption">Exported Query</div>
 				</div>
 
 				<div class="slides fade">
-					<img loading="lazy" src="./imgs/projects/GunScraper/code.jpg" title="Gun Scraper Code View" alt="Gun Scraper Code View" style="width:100%">
+					<img src="./imgs/projects/GunScraper/code.jpg" title="Gun Scraper Code View" alt="Gun Scraper Code View" style="width:100%">
 					<div class="imgCaption">Web Scraper Code</div>
 				</div>
 

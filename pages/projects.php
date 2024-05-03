@@ -20,6 +20,13 @@
 					<p>Defensor Sales App Web App</p>
 				</div>
 
+				<div class="projectsDiv">
+					<div class="projectsImgDiv" onclick="window.location.href='./projects/ActivityCentre'">
+						<img src="./imgs/projects/ActivityCentre/home.jpg" title="Field Sport Activity Centre Website" alt="Field Sport Activity Centre Website">
+					</div>
+					<p>Field Sport Activity Centre</p>
+				</div>
+
 				<div class="projectsDiv" onclick="window.location.href='./projects/WebsterAndHorsfall'">
 					<div class="projectsImgDiv">
 						<img src="./imgs/projects/WHGroup/home.jpg" title="Webster and Horsfall Group Website" alt="Webster and Horsfall Group Home Page">

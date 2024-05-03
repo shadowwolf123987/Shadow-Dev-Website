@@ -14,17 +14,17 @@
 			<div class="slideshow-container">
 
 				<div class="slides fade">
-					<img src="./imgs/projects/GamblingGame/menu.jpg" title="Gambling Game Home Page" alt="Gambling Game Home Page" style="width:100%">
+					<img loading="eager" src="./imgs/projects/GamblingGame/menu.jpg" title="Gambling Game Home Page" alt="Gambling Game Home Page" style="width:100%">
 					<div class="imgCaption">Home Menu</div>
 				</div>
 
 				<div class="slides fade">
-					<img loading="lazy" src="./imgs/projects/GamblingGame/signIn.jpg" title="Gambling Game Log In Page" alt="Gambling Game Log In Page" style="width:100%">
+					<img src="./imgs/projects/GamblingGame/signIn.jpg" title="Gambling Game Log In Page" alt="Gambling Game Log In Page" style="width:100%">
 					<div class="imgCaption">Sign In Page</div>
 				</div>
 
 				<div class="slides fade">
-					<img loading="lazy" src="./imgs/projects/GamblingGame/gameplay.jpg" title="Gambling Game Gameplay" alt="Gambling Game Gameplay" style="width:100%">
+					<img src="./imgs/projects/GamblingGame/gameplay.jpg" title="Gambling Game Gameplay" alt="Gambling Game Gameplay" style="width:100%">
 					<div class="imgCaption">Gameplay</div>
 				</div>
 

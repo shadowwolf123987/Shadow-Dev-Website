@@ -13,17 +13,17 @@
 			<div class="slideshow-container">
 
 				<div class="slides fade">
-					<img src="./imgs/projects/AirGun/home.jpg" title="Air Gun Range Home Page" alt="Air Gun Range Home Page" style="width:100%">
+					<img loading="eager" src="./imgs/projects/AirGun/home.jpg" title="Air Gun Range Home Page" alt="Air Gun Range Home Page" style="width:100%">
 					<div class="imgCaption">Home Menu</div>
 				</div>
 
 				<div class="slides fade">
-					<img loading="lazy" src="./imgs/projects/AirGun/ranges.jpg" title="Air Gun Ranges Page" alt="Air Gun Ranges Page" style="width:100%">
+					<img src="./imgs/projects/AirGun/ranges.jpg" title="Air Gun Ranges Page" alt="Air Gun Ranges Page" style="width:100%">
 					<div class="imgCaption">Ranges Page</div>
 				</div>
 
 				<div class="slides fade">
-					<img loading="lazy" src="./imgs/projects/AirGun/about.jpg" title="Air Gun About Us Page" alt="Air Gun About Us Page" style="width:100%">
+					<img src="./imgs/projects/AirGun/about.jpg" title="Air Gun About Us Page" alt="Air Gun About Us Page" style="width:100%">
 					<div class="imgCaption">About Page</div>
 				</div>
 

@@ -57,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 				<div>
 					<ul class="serviceProjectsMenu">
 						<li class="serviceMenuFirstItem"><a href="./projects/WebsterAndHorsfall">Webster and Horsfall Group Website</a></li>
-						<li class="serviceMenuLastItem"><a href="https://fieldsportukactivitycentre.co.uk/" target="_blank">Field Sport Activity Centre</a></li>
+						<li class="serviceMenuLastItem"><a href="./projects/ActivityCentre" target="_blank">Field Sport Activity Centre</a></li>
 					</ul>
 				</div>
 				<?php include '../../templates/enquiryForm.php';?>

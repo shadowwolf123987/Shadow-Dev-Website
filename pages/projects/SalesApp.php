@@ -13,27 +13,27 @@
 			<div class="slideshow-container">
 
 				<div class="slides fade">
-					<img src="./imgs/projects/SalesApp/home.jpg" title="Sales App Home Page" alt="Sales App Home Page" style="width:100%">
+					<img loading="eager" src="./imgs/projects/SalesApp/home.jpg" title="Sales App Home Page" alt="Sales App Home Page" style="width:100%">
 					<div class="imgCaption">Home Menu</div>
 				</div>
 
 				<div class="slides fade">
-					<img loading="lazy" src="./imgs/projects/SalesApp/quotes.jpg" title="Sales App Quotes View" alt="Sales App Quotes View" style="width:100%">
+					<img src="./imgs/projects/SalesApp/quotes.jpg" title="Sales App Quotes View" alt="Sales App Quotes View" style="width:100%">
 					<div class="imgCaption">Quotes View</div>
 				</div>
 
 				<div class="slides fade">
-					<img loading="lazy" src="./imgs/projects/SalesApp/quoteParts.jpg" title="Sales App Quote Parts View" alt="Sales App Quote Parts View" style="width:100%">
+					<img src="./imgs/projects/SalesApp/quoteParts.jpg" title="Sales App Quote Parts View" alt="Sales App Quote Parts View" style="width:100%">
 					<div class="imgCaption">Quote Parts</div>
 				</div>
 
 				<div class="slides fade">
-					<img loading="lazy" src="./imgs/projects/SalesApp/parts.jpg" title="Sales App Parts View" alt="Sales App Parts View" style="width:100%">
+					<img src="./imgs/projects/SalesApp/parts.jpg" title="Sales App Parts View" alt="Sales App Parts View" style="width:100%">
 					<div class="imgCaption">Database Parts List</div>
 				</div>
 
 				<div class="slides fade">
-					<img loading="lazy" src="./imgs/projects/SalesApp/exportedQuote.jpg" title="Sales App Exported Quote" alt="Sales App Exported Quote" style="width:100%">
+					<img src="./imgs/projects/SalesApp/exportedQuote.jpg" title="Sales App Exported Quote" alt="Sales App Exported Quote" style="width:100%">
 					<div class="imgCaption">Exported Word Quote</div>
 				</div>
 

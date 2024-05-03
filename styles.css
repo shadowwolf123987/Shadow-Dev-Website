@@ -7,28 +7,19 @@
 	--iconHover: rgb(73, 73, 73);
   }
 
+html {
+	scroll-behavior: smooth;
+}
+
 /* Global Element Definitions */
 body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: white;
-	background-image: url("imgs/wolfBackground.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-	background-color: #061014;
+    background-image:  repeating-radial-gradient(circle at 0 0, transparent 0, #222121 450px), repeating-linear-gradient(#1d1d1e, #1c1c1c);
+	background-color: #1f1f1f;
 	margin: 0;
 }
 
-	/* Background Mobile Version */
-
-	@media only screen and (max-width: 767px) {
-		body{
-			background-image: url("imgs/wolfBackgroundMobile.jpg");
-			background-size: contain;
-			background-position: center;
-			background-repeat: no-repeat;
-			background-color: #020818;
-		}
-	}
 
 a{
 	text-decoration: none;
@@ -74,7 +65,7 @@ ul{
 nav{
 	position: top;
 	top: 0;
-	height: 75px;
+	height: 80px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -82,8 +73,9 @@ nav{
 }
 
 .navLogo a img{
-	height: 65px;
-	margin: 5px;
+	height: 80px;
+	padding: 10px;
+	margin-right: 15px;
 }
 
 .socialLinks {
@@ -305,7 +297,7 @@ nav{
 	}
 
 .projectsImgDiv {
-	padding: 25px 5px 10px 5px;
+	padding: 5px 5px 5px 5px;
 	height: 150px;
 }
 
@@ -522,11 +514,13 @@ img {vertical-align: middle;border-radius:15px;}
 .servicesTitleDiv h1{
 	font-size: 2.5em;
 	margin: 0;
+	padding: 20px;
 }
 
 .servicesTitleDiv p{
 	font-size: 1.1em;
-	margin-top: 10px;
+	margin: 0;
+	padding: 5px;
 }
 
 .servicesGrid{
@@ -534,7 +528,7 @@ img {vertical-align: middle;border-radius:15px;}
 	grid-template-columns: repeat(3, 1fr);
 	grid-column-gap: 50px;
 	grid-row-gap: 35px;
-	padding: 15px;
+	padding: 35px;
 	background-color: var(--darkGray);
 }
 

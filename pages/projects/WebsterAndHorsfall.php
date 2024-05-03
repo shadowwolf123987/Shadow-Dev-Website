@@ -13,22 +13,22 @@
 			<div class="slideshow-container">
 
 				<div class="slides fade">
-					<img src="./imgs/projects/WHGroup/home.jpg" title="Webster and Horsfall Group Home Page" alt="Webster and Horsfall Group Home Page" style="width:100%">
+					<img loading="eager" src="./imgs/projects/WHGroup/home.jpg" title="Webster and Horsfall Group Home Page" alt="Webster and Horsfall Group Home Page" style="width:100%">
 					<div class="imgCaption">Home Menu</div>
 				</div>
 
 				<div class="slides fade">
-					<img loading="lazy" src="./imgs/projects/WHGroup/gallery.jpg" title="Webster and Horsfall Group Home Page" alt="Webster and Horsfall Group Home Page" style="width:100%">
+					<img src="./imgs/projects/WHGroup/gallery.jpg" title="Webster and Horsfall Group Home Page" alt="Webster and Horsfall Group Home Page" style="width:100%">
 					<div class="imgCaption">Gallery</div>
 				</div>
 
 				<div class="slides fade">
-					<img loading="lazy" src="./imgs/projects/WHGroup/news.jpg" title="Webster and Horsfall Group Home Page" alt="Webster and Horsfall Group Home Page" style="width:100%">
+					<img src="./imgs/projects/WHGroup/news.jpg" title="Webster and Horsfall Group Home Page" alt="Webster and Horsfall Group Home Page" style="width:100%">
 					<div class="imgCaption">News</div>
 				</div>
 
 				<div class="slides fade">
-					<img loading="lazy" src="./imgs/projects/WHGroup/contact.jpg" title="Webster and Horsfall Group Home Page" alt="Webster and Horsfall Group Home Page" style="width:100%">
+					<img src="./imgs/projects/WHGroup/contact.jpg" title="Webster and Horsfall Group Home Page" alt="Webster and Horsfall Group Home Page" style="width:100%">
 					<div class="imgCaption">Contact Us</div>
 				</div>
 

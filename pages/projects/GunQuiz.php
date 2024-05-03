@@ -20,12 +20,12 @@
 				</div>
 
 				<div class="slides fade">
-					<img loading="lazy" src="./imgs/projects/GunQuiz/view.jpg" title="Gun Quiz View Guns Screen" alt="Gun Quiz View Guns Screen" style="width:100%">
+					<img src="./imgs/projects/GunQuiz/view.jpg" title="Gun Quiz View Guns Screen" alt="Gun Quiz View Guns Screen" style="width:100%">
 					<div class="imgCaption">Gun View</div>
 				</div>
 
 				<div class="slides fade">
-					<img loading="lazy" src="./imgs/projects/GunQuiz/guess.jpg" title="Gun Quiz Guess Guns Screen" alt="Gun Quiz Guess Guns Screen" style="width:100%">
+					<img src="./imgs/projects/GunQuiz/guess.jpg" title="Gun Quiz Guess Guns Screen" alt="Gun Quiz Guess Guns Screen" style="width:100%">
 					<div class="imgCaption">Gun Quiz</div>
 				</div>
 
