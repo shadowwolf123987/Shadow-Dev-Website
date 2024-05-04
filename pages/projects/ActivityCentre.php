@@ -6,8 +6,8 @@
 		<?php include '../../templates/navbar.php';?>
 		<div class="projectContent" id="content">
 			
-			<div class="projectTitleDiv clickable" onclick='window.location.href="https://fieldsportukactivitycentre.co.uk/"'>
-				Field Sport UK Activity Centre
+			<div class="projectTitleDiv">
+				<a class="clickable" href="https://fieldsportukactivitycentre.co.uk/" target="_blank">Field Sport UK Activity Centre</a>
 			</div>
 
 			<div class="slideshow-container">

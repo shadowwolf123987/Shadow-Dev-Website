@@ -6,7 +6,7 @@
 		<?php include '../../templates/navbar.php';?>
 		<div class="projectContent" id="content">
 
-			<div class="projectTitleDiv" onclick="">
+			<div class="projectTitleDiv">
 				Certificate Creator Web App
 			</div>
 

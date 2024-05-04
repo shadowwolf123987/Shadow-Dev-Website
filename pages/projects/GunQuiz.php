@@ -7,7 +7,7 @@
 		
 		<div class="projectContent" id="content">
 
-			<div class="projectTitleDiv" onclick="">
+			<div class="projectTitleDiv">
 				Personal Gun Quiz
 			</div>
 

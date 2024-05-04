@@ -342,8 +342,13 @@ nav{
 }
 
 	.clickable{
-		cursor: pointer;
+		color: rgb(91, 91, 252);
+		font-style: italic;
 	}
+
+		.clickable:hover{
+			text-decoration: underline;
+		}
 
  .slides{
 	width: 100%;
