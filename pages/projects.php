@@ -20,8 +20,8 @@
 					<p>Defensor Sales App Web App</p>
 				</div>
 
-				<div class="projectsDiv">
-					<div class="projectsImgDiv" onclick="window.location.href='./projects/ActivityCentre'">
+				<div class="projectsDiv" onclick="window.location.href='./projects/ActivityCentre'">
+					<div class="projectsImgDiv">
 						<img src="./imgs/projects/ActivityCentre/home.jpg" title="Field Sport Activity Centre Website" alt="Field Sport Activity Centre Website">
 					</div>
 					<p>Field Sport Activity Centre</p>
@@ -34,29 +34,29 @@
 					<p>Webster and Horsfall Group Website</p>
 				</div>
 
-				<div class="projectsDiv">
-					<div class="projectsImgDiv" onclick="window.location.href='./projects/CertificateCreator'">
+				<div class="projectsDiv" onclick="window.location.href='./projects/CertificateCreator'">
+					<div class="projectsImgDiv">
 						<img src="./imgs/projects/CertificateCreator/home.jpg" title="Certificate Creator Tool" alt="Certificate Creator Tool">
 					</div>
 					<p>Certificate Creator Tool</p>
 				</div>
 
-				<div class="projectsDiv">
-					<div class="projectsImgDiv" onclick="window.location.href='./projects/AirgunRange'">
+				<div class="projectsDiv" onclick="window.location.href='./projects/AirgunRange'">
+					<div class="projectsImgDiv">
 						<img src="./imgs/projects/AirGun/home.jpg" title="Air Gun Range Website" alt="Air Gun Range Website">
 					</div>
 					<p>Air Gun Range</p>
 				</div>
 
-				<div class="projectsDiv">
-					<div class="projectsImgDiv" onclick="window.location.href='./projects/GunQuiz'">
+				<div class="projectsDiv" onclick="window.location.href='./projects/GunQuiz'">
+					<div class="projectsImgDiv">
 						<img src="./imgs/projects/GunQuiz/guess.jpg" title="Gun Quiz Tool" alt="Gun Quiz Tool">
 					</div>
 					<p>Gun Quiz</p>
 				</div>
 
-				<div class="projectsDiv">
-					<div class="projectsImgDiv" onclick="window.location.href='./projects/GamblingGame'">
+				<div class="projectsDiv" onclick="window.location.href='./projects/GamblingGame'">
+					<div class="projectsImgDiv">
 						<img src="./imgs/projects/GamblingGame/gameplay.jpg" title="Gambling Game" alt="Gambling Game">
 					</div>
 					<p>Python Gambling Game</p>

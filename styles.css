@@ -294,6 +294,7 @@ nav{
 
 	.projectsDiv:hover{
 		background-color: var(--darkGrayHover);
+		cursor: pointer;
 	}
 
 .projectsImgDiv {
