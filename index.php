@@ -1,5 +1,4 @@
-﻿<html lang="en">
-<?php include './templates/head.php';?>
+﻿<?php include './templates/head.php';?>
 
 <body>
 	<div class="backgroundLayer">

@@ -1,4 +1,3 @@
-<html lang="en">
 <?php include '../templates/head.php';?>
 
 <body>
@@ -17,7 +16,7 @@
 					<div class="projectsImgDiv">
 						<img src="./imgs/projects/SalesApp/home.jpg" title="Sales App" alt="Sales App Home Screen">
 					</div>
-					<p>Defensor Sales App Web App</p>
+					<p>Defensor Sales App</p>
 				</div>
 
 				<div class="projectsDiv" onclick="window.location.href='./projects/ActivityCentre'">

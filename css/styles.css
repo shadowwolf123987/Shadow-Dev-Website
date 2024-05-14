@@ -13,13 +13,13 @@ html {
 
 /* Global Element Definitions */
 body {
+	height:100vh;
+	margin: 0;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: white;
     background-image:  repeating-radial-gradient(circle at 0 0, transparent 0, #222121 450px), repeating-linear-gradient(#1d1d1e, #1c1c1c);
 	background-color: #1f1f1f;
-	margin: 0;
 }
-
 
 a{
 	text-decoration: none;
@@ -169,7 +169,7 @@ nav{
 	border-radius: 0;
 	border-style: solid;
 	border-color: white;
-	border-width: 0 0 3px 0;
+	border-width: 0 0 1px 0;
 }
 
 .mobileSocials {
@@ -188,16 +188,6 @@ nav{
 .mobileSocials div a img {
 	height: 65px;
 }
-
-@media only screen and (max-width: 767px) {
-	.desktopNav{
-		display: none;
-	}
-
-	.mobileNav{
-		display: flex;
-	}
- }
 
 /* Home Page */
 
@@ -228,32 +218,6 @@ nav{
 .homeDiv p{
 	font-size: 1.1em;
 }
-
-/* Home Mobile Design*/
-
-@media only screen and (max-width: 767px) {
-	.homeContent{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		margin: 0;
-	}
-	
-	.homeDiv{
-		width: 280px;
-		padding: 25px;
-		margin: 40px 0;
-		font-size: 1em;
-	}
-
-	.homeDiv img{
-		width: 200px;
-	}
-	
-	.homeDiv p{
-		font-size: 1em;
-	}
- }
 
 /* Main Projects Display Page */
 .projectsTitleDiv {
@@ -308,22 +272,6 @@ nav{
 	border-radius: 5px;
 	background-size: cover;
 }
-
-/* Main Projects Tablet Design */
-
-@media only screen and (max-width: 1024px) {
-	.projectsGrid {  
-		grid-template-columns: repeat(2, 1fr);
-	}
- }
-
-/* Main Projects Mobile Design */
-
-@media only screen and (max-width: 767px) {
-	.projectsGrid {  
-		grid-template-columns: repeat(1, 1fr);
-	}
- }
 
  /* Individual Project */
 
@@ -384,38 +332,6 @@ nav{
 	.projectDescription a:hover{
 		text-decoration: underline;
 	}
-
-/* Project Tablet Design */
-@media only screen and (max-width: 900px) {
-	.slides{
-	height: 350px;
-}
-}
-
-/* Project Mobile Design */
-
-@media only screen and (max-width: 767px) {
-	.projectTitleDiv{
-		font-size: 1.6em;
-		padding: 15px 40px;
-	}
-
-	.slides{
-		height: 250px;
-	}
-
-	.slides img{
-		border-width: 5px;
-	}
-	
-	 .projectDescription {
-		margin-top: 20px;
-		padding: 10px;
-		width: 100%;
-		height: 100%;
-		font-size: 1em;
-	}
-}
 
  /* Project Image Slideshow */
 
@@ -564,22 +480,6 @@ img {vertical-align: middle;border-radius:15px;}
 	background-size: cover;
 }
 
-/* Main Services Tablet Design */
-
-@media only screen and (max-width: 900px) {
-	.servicesGrid {  
-		grid-template-columns: repeat(2, 1fr);
-	}
- }
-
-/* Main Services Mobile Design */
-
-@media only screen and (max-width: 767px) {
-	.servicesGrid {  
-		grid-template-columns: repeat(1, 1fr);
-	}
- }
-
  /* Individual Service */
 
 .serviceContent{
@@ -686,51 +586,6 @@ img {vertical-align: middle;border-radius:15px;}
 .enquirySubmit{
 	width: 50%;
 }
-
- /* Individual Service Tablet Design */
-
-@media only screen and (max-width: 900px) {
-
-	.serviceDescription{
-		width: 80%;
-		height: 100%;
-	}
-
-	.serviceRow{
-		flex-direction: column;
-	}
-
-	.serviceProjectsMenu{
-		margin-bottom: 25px;
-	}
- }
-
-/* Individual Service Mobile Design */
-
-@media only screen and (max-width: 767px) {
-
-	.serviceDescription{
-		width: 100%;
-		height: 100%;
-	}
-
-	.serviceRow{
-		flex-direction: column;
-	}
-
-	.serviceProjectsMenu{
-		margin-bottom: 25px;
-	}
-
-	.serviceProjectsMenu li{
-		padding: 10px 25px;
-	}
-
-	.serviceEnquireBtn{
-		margin-bottom: 50px;
-	}
- }
-
 
 /* About Me */
 
@@ -847,45 +702,4 @@ img {vertical-align: middle;border-radius:15px;}
 
 .aboutEducationItem p{
 	margin: 5px;
-}
-
-@media only screen and (max-width: 900px) {
-}
-
-/* Individual Service Mobile Design */
-
-@media only screen and (max-width: 767px) {
-	.aboutContentDiv{
-		width: 80%;
-	}
-
-	.aboutJourney{
-		width: 100%;
-	}
-
-	.aboutWorkExpDiv{
-		grid-template-columns: repeat(1, 1fr);
-		column-gap: 50px;
-	}
-
-	.aboutSkillsDiv{
-		column-gap: 50px;
-	}
-
-	.enquiryInput{
-		width: 300px;
-	}
-
-	.aboutBtnsDiv{
-		width: 100%;
-		flex-direction: column;
-		align-items: center;
-	}
-	
-	.aboutBtnsDiv button{
-		width: 90%;
-		font-size: 1em;
-		padding: 8px 0;
-		margin: 10px 0;
-	}
 }

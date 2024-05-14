@@ -1,4 +1,3 @@
-<html lang="en">
 <?php include '../templates/head.php';?>
 
 <body>

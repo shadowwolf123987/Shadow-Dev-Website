@@ -1,0 +1,138 @@
+/* Mobile Navbar */
+.desktopNav{
+    display: none;
+}
+
+.mobileNav{
+    display: flex;
+}
+
+/* Home Mobile Design */
+
+.homeContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.homeDiv{
+    width: 280px;
+    padding: 25px;
+    margin: 40px 0;
+    font-size: 1em;
+}
+
+.homeDiv img{
+    width: 200px;
+}
+
+.homeDiv p{
+    font-size: 1em;
+}
+
+/* Projects Mobile Design */
+
+.projectsGrid {  
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.projectsTitleDiv {
+	margin-top: 0px;
+}
+
+/* Individual Project Mobile Design */
+
+.projectTitleDiv{
+    font-size: 1.6em;
+    padding: 15px 40px;
+}
+
+.slides{
+    height: 250px;
+}
+
+.slides img{
+    border-width: 5px;
+}
+
+ .projectDescription {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+}
+
+/* Services Mobile Design */
+
+.servicesGrid {  
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.servicesTitleDiv {
+    margin-top: 0px;
+}
+
+/* Individual Service Mobile Design */
+
+.serviceDescription{
+    width: 100%;
+    height: 100%;
+}
+
+.serviceRow{
+    flex-direction: column;
+}
+
+.serviceProjectsMenu{
+    margin-bottom: 25px;
+}
+
+.serviceProjectsMenu li{
+    padding: 10px 25px;
+}
+
+.serviceEnquireBtn{
+    margin-bottom: 50px;
+}
+
+/* About Mobile Design */
+
+.aboutBGDiv{
+    margin-top: 0px;
+}
+
+.aboutContentDiv{
+    width: 80%;
+}
+
+.aboutJourney{
+    width: 100%;
+}
+
+.aboutWorkExpDiv{
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 50px;
+}
+
+.aboutSkillsDiv{
+    column-gap: 50px;
+}
+
+.enquiryInput{
+    width: 300px;
+}
+
+.aboutBtnsDiv{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutBtnsDiv button{
+    width: 90%;
+    font-size: 1em;
+    padding: 8px 0;
+    margin: 10px 0;
+}

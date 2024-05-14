@@ -1,12 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	
 <head>
+
 	<title>Shadow Dev</title>
 	<base href="http://localhost/shadowdev/">
-	<link rel="stylesheet" href="./styles.css">
+
+	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="./css/tablet.css" media="screen and (max-width: 900px)">
+	<link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 767px)">
+
 	<link href="./imgs/wolfBlack.png"
       rel="icon"/>
 	<link href="./imgs/wolfWhite.png"
       rel="icon"
       media="(prefers-color-scheme: dark)" />
+
 	<link href="https://fonts.googleapis.com/css2?family=Ysabeau:wght@200&display=swap" rel="stylesheet">
 	<link rel="apple-touch-icon" href="./imgs/wolfWhite.png">
 	
@@ -25,4 +34,5 @@
 
 	gtag('config', 'G-3L9YK1ES6L');
 	</script>
+
 </head>

@@ -1,0 +1,33 @@
+/* Projects Tablet Design */
+
+.projectsGrid {  
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+/* Individual Project Tablet Design */
+
+.slides{
+	height: 350px;
+}
+
+/* Services Tablet Design */
+
+.servicesGrid {  
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* Individual Service Tablet Design */
+
+.serviceDescription{
+    width: 80%;
+    height: 100%;
+}
+
+.serviceRow{
+    flex-direction: column;
+}
+
+.serviceProjectsMenu{
+    margin-bottom: 25px;
+}
