@@ -516,7 +516,7 @@ img {vertical-align: middle;border-radius:15px;}
 }
 
 .serviceProjectsMenu{
-	height: 145px;
+	height: 195px;
 	border-radius: 15px;
 	background-color: var(--darkGray);
 	font-size: 1.5em;
@@ -527,19 +527,19 @@ img {vertical-align: middle;border-radius:15px;}
 	padding: 10px 80px;
 }
 
+	.serviceProjectsMenu li:first-child{	
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+	}
+
+	.serviceProjectsLastItem{
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+	}
+
 	.serviceProjectsMenu li:hover{
 		background-color: var(--darkGrayHover);
 	}
- 
-.serviceMenuFirstItem:hover{
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-}
-
-.serviceMenuLastItem:hover{
-	border-bottom-left-radius: 15px;
-	border-bottom-right-radius: 15px;
-}
 	
 .serviceEnquireBtn{
 	font-size: 1.5em;

@@ -20,6 +20,7 @@
 	<link rel="apple-touch-icon" href="./imgs/wolfWhite.png">
 	
 	<meta charset="UTF-8">
+	<meta property="og:image" content="./imgs/wolfBlack.png">
 	<meta name="description" content="My Personal Developer Portfolio Website">
 	<meta name="keywords" content="Shadow Dev, Oli Taylor, Development">
 	<meta name="author" content="Oli Taylor">

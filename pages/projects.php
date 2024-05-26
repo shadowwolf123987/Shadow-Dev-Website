@@ -12,6 +12,13 @@
 
 			<div class="projectsGrid">
 
+				<div class="projectsDiv" onclick="window.location.href='./projects/FieldSportBookingApp'">
+					<div class="projectsImgDiv">
+						<img src="./imgs/projects/FsBookingApp/home.jpg" title="Field Sport Booking App" alt="Field Sport Booking App Home Menu">
+					</div>
+					<p>Field Sport Air Gun Range Booking App</p>
+				</div>
+
 				<div class="projectsDiv" onclick="window.location.href='./projects/SalesApp'">
 					<div class="projectsImgDiv">
 						<img src="./imgs/projects/SalesApp/home.jpg" title="Sales App" alt="Sales App Home Screen">
