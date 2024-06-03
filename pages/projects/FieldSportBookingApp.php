@@ -6,7 +6,7 @@
 		<div class="projectContent" id="content">
 
 			<div class="projectTitleDiv">
-				<a>Field Sport UK Air Gun Range Booking Website</a>
+				<a class="clickable" href="https://booking.airgunrange.co.uk/" target="_blank">Field Sport UK Air Gun Range Booking Website</a>
 			</div>
 
 			<div class="slideshow-container">

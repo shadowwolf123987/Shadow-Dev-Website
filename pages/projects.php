@@ -44,7 +44,7 @@
 					<div class="projectsImgDiv">
 						<img src="./imgs/projects/CertificateCreator/home.jpg" title="Certificate Creator Tool" alt="Certificate Creator Tool">
 					</div>
-					<p>Certificate Creator Tool</p>
+					<p>Vigilant Certificate Creator Tool</p>
 				</div>
 
 				<div class="projectsDiv" onclick="window.location.href='./projects/AirgunRange'">

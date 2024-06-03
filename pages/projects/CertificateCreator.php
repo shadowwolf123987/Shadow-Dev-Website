@@ -6,7 +6,7 @@
 		<div class="projectContent" id="content">
 
 			<div class="projectTitleDiv">
-				Certificate Creator Web App
+				Vigilant Certificate Creator Web App
 			</div>
 
 
