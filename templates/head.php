@@ -10,11 +10,8 @@
 	<link rel="stylesheet" href="./css/tablet.css" media="screen and (max-width: 900px)">
 	<link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 767px)">
 
-	<link href="./imgs/wolfBlack.png"
+	<link href="./imgs/wolfLogo.png"
       rel="icon"/>
-	<link href="./imgs/wolfWhite.png"
-      rel="icon"
-      media="(prefers-color-scheme: dark)" />
 
 	<link href="https://fonts.googleapis.com/css2?family=Ysabeau:wght@200&display=swap" rel="stylesheet">
 	<link rel="apple-touch-icon" href="./imgs/wolfWhite.png">

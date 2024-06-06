@@ -1,11 +1,11 @@
 <nav class="desktopNav"> 
-    <div class="navLogo"><a href="./"><img src="./imgs/wolfWhite.png" title="ShadowDev Logo" alt="ShadowDev Logo"></a></div>
+    <div class="navLogo"><a href="./"><img src="./imgs/wolfLogo.png" title="ShadowDev Logo" alt="ShadowDev Logo"></a></div>
     
     <a class="txtLink" href="./projects">Projects</a> |
     <a class="txtLink" href="./services">Services</a> |
     <a class="txtLink" href="./aboutme">About Me</a>
     
-    <div class="socialLinks" style="margin-right:25px;">
+    <div class="socialLinks">
         <div>
             <a href="https://github.com/shadowwolf123987" target="_blank"><img src="./imgs/icons/gitIcon.png" title="GitHub" alt="GitHub"></a>
         </div>
@@ -19,7 +19,7 @@
 </nav>
 
 <nav class="mobileNav"> 
-    <div class="navLogo"><a href="./"><img src="./imgs/wolfWhite.png" title="ShadowDev Logo" alt="ShadowDev Logo"></a></div>
+    <div class="navLogo"><a href="./"><img src="./imgs/wolfLogo.png" title="ShadowDev Logo" alt="ShadowDev Logo"></a></div>
 
     <div class="mobileIcon" id="mobileIcon">
         <span class="bar"></span>
