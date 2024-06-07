@@ -14,10 +14,10 @@
       rel="icon"/>
 
 	<link href="https://fonts.googleapis.com/css2?family=Ysabeau:wght@200&display=swap" rel="stylesheet">
-	<link rel="apple-touch-icon" href="./imgs/wolfWhite.png">
+	<link rel="apple-touch-icon" href="./imgs/wolfLogo.png">
 	
 	<meta charset="UTF-8">
-	<meta property="og:image" content="./imgs/wolfBlack.png">
+	<meta property="og:image" content="./imgs/wolfLogo.png">
 	<meta name="description" content="My Personal Developer Portfolio Website">
 	<meta name="keywords" content="Shadow Dev, Oli Taylor, Development">
 	<meta name="author" content="Oli Taylor">
