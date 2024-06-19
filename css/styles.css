@@ -5,6 +5,7 @@
 	--darkGrayHover: #29292c;
 	--whiteHover: rgb(219, 219, 219);
 	--iconHover: rgb(73, 73, 73);
+	--linkBlue: rgb(35, 110, 250)
   }
 
 html {
@@ -325,7 +326,7 @@ nav{
 }
 
 .projectDescription a{
-	color: rgb(35, 110, 250);
+	color: var(--linkBlue);
 	font-size: 1em;
 	cursor: pointer;
 }
@@ -548,7 +549,7 @@ img {vertical-align: middle;border-radius:15px;}
 }
 
 .serviceDescription a{
-	color: rgb(35, 110, 250);
+	color: var(--linkBlue);
 	font-size: 1em;
 	cursor: pointer;
 }
@@ -586,6 +587,17 @@ img {vertical-align: middle;border-radius:15px;}
 
 .enquirySubmit{
 	width: 50%;
+	margin: 10px 0 20px 0;
+}
+
+.enquirySubtext{
+	text-align: center;
+	margin: 3px 0;
+}
+
+.enquirySubtext a{
+	color: rgb(35, 110, 250);
+	text-decoration: underline;
 }
 
 /* About Me */

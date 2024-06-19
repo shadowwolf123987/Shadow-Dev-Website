@@ -111,6 +111,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                     <h2 class="aboutSubtitle" id="Education">Education</h2>
                     <div class="aboutEducationDiv">
+
+                        <div class="aboutEducationItem">
+                            <h5>Programming and App Development</h5>
+                            <p>Burton and South Derybshire College</p>
+                            <p>Ongoing/Predicted D*D*D*</p>
+                        </div>
+
+                        <div class="aboutEducationItem">
+                            <h5>GCSE Computer Science</h5>
+                            <p>Ashby School</p>
+                            <p>Grade 7 (Equivalent to A)</p>
+                        </div>
                         
                         <div class="aboutEducationItem">
                             <h5>GCSE English</h5>
@@ -122,18 +134,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <h5>GCSE Maths</h5>
                             <p>Ashby School</p>
                             <p>Grade 6 (Equivalent to B)</p>
-                        </div>
-
-                        <div class="aboutEducationItem">
-                            <h5>GCSE Computer Science</h5>
-                            <p>Ashby School</p>
-                            <p>Grade 7 (Equivalent to A)</p>
-                        </div>
-
-                        <div class="aboutEducationItem">
-                            <h5>Programming and App Development</h5>
-                            <p>Burton and South Derybshire College</p>
-                            <p>Ongoing/Predicted D*D*D*</p>
                         </div>
 
                     </div>
@@ -149,6 +149,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <textarea class="enquiryInput enquiryMessage" name="message" cols="50" rows="6" maxlength="500" placeholder="Message..." required></textarea>
 
                             <button class="enquirySubmit" type="submit">SUBMIT</button>
+
+                            <p class="enquirySubtext">Email: <a href="mailto:olitaylor@shadowdev.co.uk">olitaylor@shadowdev.co.uk</a></p>
+                            <p class="enquirySubtext">Phone Number: <a href="tel:07847322174">07847 322174</a></p>
                             
                         </div>
                         </form>
