@@ -40,6 +40,13 @@
 					<p>Webster and Horsfall Group Website</p>
 				</div>
 
+				<div class="projectsDiv" onclick="window.location.href='./projects/GunScraper'">
+					<div class="projectsImgDiv">
+						<img src="./imgs/projects/GunQuiz/guess.jpg" title="Gun Web Scraper Tool" alt="Gun Web Scraper Tool">
+					</div>
+					<p>Gun Web Scraper Tool</p>
+				</div>
+
 				<div class="projectsDiv" onclick="window.location.href='./projects/CertificateCreator'">
 					<div class="projectsImgDiv">
 						<img src="./imgs/projects/CertificateCreator/home.jpg" title="Certificate Creator Tool" alt="Certificate Creator Tool">
@@ -52,13 +59,6 @@
 						<img src="./imgs/projects/AirGun/home.jpg" title="Air Gun Range Website" alt="Air Gun Range Website">
 					</div>
 					<p>Air Gun Range</p>
-				</div>
-
-				<div class="projectsDiv" onclick="window.location.href='./projects/GunQuiz'">
-					<div class="projectsImgDiv">
-						<img src="./imgs/projects/GunQuiz/guess.jpg" title="Gun Quiz Tool" alt="Gun Quiz Tool">
-					</div>
-					<p>Gun Quiz</p>
 				</div>
 
 				<div class="projectsDiv" onclick="window.location.href='./projects/GamblingGame'">

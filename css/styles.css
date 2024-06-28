@@ -303,7 +303,7 @@ nav{
 
  .slides{
 	width: 100%;
-	height: 500px;
+	height: auto;
 	margin-top: 20px;
 }
 
@@ -312,6 +312,7 @@ nav{
 	border: 8px solid var(--darkGray);
 	border-radius: 15px;
 	background-size: cover;
+	object-fit: contain;
 }
 
  .projectDescription {

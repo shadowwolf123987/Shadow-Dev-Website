@@ -10,11 +10,10 @@
 	<link rel="stylesheet" href="./css/tablet.css" media="screen and (max-width: 900px)">
 	<link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 767px)">
 
-	<link href="./imgs/wolfLogo.png"
-      rel="icon"/>
+	<link href="./imgs/wolfLogo.png" rel="icon"/>
 
 	<link href="https://fonts.googleapis.com/css2?family=Ysabeau:wght@200&display=swap" rel="stylesheet">
-	<link rel="apple-touch-icon" href="./imgs/wolfLogo.png">
+	<link rel="apple-touch-icon" href="/imgs/wolfLogo.png">
 	
 	<meta charset="UTF-8">
 	<meta property="og:image" content="./imgs/wolfLogo.png">
